@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -n \"raw/<module>/<type>/<YYYYMM>/\\\\|wiki/<module>/{entities,concepts,comparisons,sources,synthesis}/\\\\|wiki/index.md\\\\|wiki/log.md\\\\|wiki/overview.md\\\\|fico\\\\|abap\\\\|mm\\\\|pp\\\\|qm\" CLAUDE.md)",
+      "Bash(git init *)",
+      "Bash(find raw -type f ! -name '.gitkeep' | sort | sed 's#^#/#')",
+      "Bash(python3 -)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "enabledPlugins": {
+    "claude-mem@thedotmack": false,
+    "swift-lsp@claude-plugins-official": false,
+    "claude-hud@claude-hud": false,
+    "pua@pua-skills": true,
+    "superpowers@claude-plugins-official": false
+  }
+}
