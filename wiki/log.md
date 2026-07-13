@@ -69,3 +69,10 @@ tags: []
 - 做了什么：盘点所有模块 raw 目录，确认 FICO 已完成，ABAP/MM/PP/QM 暂无有效资料，附件和系统文件不作为来源页整理
 - 结果：新增 `wiki/shared/raw资料总清单.md`，并更新 `wiki/index.md`、`wiki/overview.md`、`wiki/abap/overview.md`、`wiki/mm/overview.md`、`wiki/pp/overview.md`、`wiki/qm/overview.md`
 - 后续：后续新增 raw 文件后，按模块继续整理到对应 `wiki/<module>/sources/`
+
+## 2026-07-08 | 整理特别总账 | FICO
+- 主题：F-02 特别总账录入操作手册
+- 来源：用户确认的特别总账规则
+- 做了什么：整理 F-02 特别总账录入的操作规则，明确客户常见过账码为 09/19、供应商常见过账码为 29/39，SGL 为特别总账标识，并补充客户/供应商特别总账概念页
+- 结果：新增 `wiki/fico/sources/F-02 特别总账录入.md`、`wiki/fico/concepts/特别总账.md`、`wiki/fico/concepts/客户特别总账.md`、`wiki/fico/concepts/供应商特别总账.md`、`wiki/fico/synthesis/F-02 特别总账录入操作手册.md`，并更新索引
+- 后续：如需可继续补充客户/供应商特别总账的单据示例

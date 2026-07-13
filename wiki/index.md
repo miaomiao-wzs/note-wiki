@@ -85,6 +85,8 @@ tags: []
 
 - [[wiki/fico/sources/FICO 综合资料]]
 - [[wiki/fico/sources/通过凭证查找业务单据方法]]
+- [[wiki/fico/sources/F-02 特别总账录入]]
+- [[wiki/fico/synthesis/F-02 特别总账录入操作手册]]
 
 ### 第八批：PDF 专题资料
 
