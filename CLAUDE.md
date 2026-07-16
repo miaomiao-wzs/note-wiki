@@ -9,7 +9,7 @@
 ### raw/
 - `raw/` 存放原始资料，只做归档与读取，不在这里整理总结。
 - 统一结构：`raw/<module>/<type>/<YYYYMM>/`
-- `module` 使用小写模块名，例如：`fico`、`abap`，后续可扩展 `mm`、`pp`、`qm`。
+- `module` 使用小写模块名，例如：`fico`、`abap`、`sd`，后续可扩展 `mm`、`pp`、`qm`。
 - `type` 使用来源类型，例如：`article`、`pdf`、`web`、`note`。
 - `YYYYMM` 使用年月桶，例如：`202607`。
 - 文件命名建议采用“主题清晰、长度适中、便于搜索”的中文名称，例如：`采购发票处理流程.pdf`、`ABAP 内表循环优化.md`。
@@ -21,7 +21,7 @@
 ### wiki/
 - `wiki/` 存放 LLM 维护的知识页面。
 - 每个模块采用同构结构：`wiki/<module>/{entities,concepts,comparisons,sources,synthesis}/`
-- 当前初始化模块包括：`fico`、`abap`。
+- 当前初始化模块包括：`fico`、`abap`、`sd`。
 - 预留同构扩展模块：`mm`、`pp`、`qm`。
 - 全局入口文件固定为：`wiki/index.md`、`wiki/log.md`、`wiki/overview.md`。
 - `wiki/shared/` 用于跨模块通用内容。
@@ -73,14 +73,14 @@
 当 Claude 在本仓库根目录启动时，应把当前目录视为 Obsidian vault 根目录，并遵守以下默认上下文：
 
 - 当前项目是 Obsidian 知识库，不是普通代码仓库。
-- 回答 SAP / FICO / ABAP / MM / PP / QM 相关问题时，优先使用 `wiki/` 中已有知识页面。
+- 回答 SAP / FICO / ABAP / SD / MM / PP / QM 相关问题时，优先使用 `wiki/` 中已有知识页面。
 - 不要只凭模型记忆回答业务操作问题；应先检索或阅读相关 wiki 页面。
 - 回答时优先使用 Obsidian wiki-link 引用相关页面，例如 `[[wiki/fico/sources/客商创建]]`。
 - 如果 wiki 中没有对应内容，应明确说明“当前 wiki 尚未沉淀该主题”，再给出通用判断或建议。
 
 ### 必读入口
 
-每次终端会话开始后，如用户提出 SAP、FICO、ABAP、MM、PP、QM 或知识库相关问题，应优先读取这些入口来建立上下文：
+每次终端会话开始后，如用户提出 SAP、FICO、ABAP、SD、MM、PP、QM 或知识库相关问题，应优先读取这些入口来建立上下文：
 
 - `CLAUDE.md`：项目维护规则
 - `wiki/index.md`：全局索引
@@ -91,6 +91,7 @@
 
 - FICO：`wiki/fico/overview.md`
 - ABAP：`wiki/abap/overview.md`
+- SD：`wiki/sd/overview.md`
 - MM：`wiki/mm/overview.md`
 - PP：`wiki/pp/overview.md`
 - QM：`wiki/qm/overview.md`

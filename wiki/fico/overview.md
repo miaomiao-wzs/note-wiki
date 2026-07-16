@@ -1,8 +1,8 @@
 ---
 module: fico
 kind: overview
-updated: 2026-07-08
-source_count: 34
+updated: 2026-07-15
+source_count: 40
 tags: []
 ---
 
@@ -36,6 +36,17 @@ tags: []
 - [[wiki/fico/sources/CO 分摊分配配置说明]]
 - [[wiki/fico/sources/OKB9 成本要素默认成本中心配置]]
 - [[wiki/fico/sources/主营业务成本科目是否勾选成本要素]]
+- [[wiki/fico/sources/SAP 如何批量扩充科目主数据到其他子公司]]
+
+### 2026-07-15 新增 Markdown
+
+- [[wiki/fico/sources/SAP F.19 GRIR重分类]]
+- [[wiki/fico/sources/SAP在建工程转固后的反向处理]]
+- [[wiki/fico/sources/SAP月结成本中心流入工单金额核对]]
+- [[wiki/fico/sources/SAP生产工单收货数量与质检取样成本]]
+- [[wiki/fico/sources/SAP资产负债表与利润表勾稽检查]]
+- [[wiki/fico/sources/ZFIR043维护金税发票与形式发票关系-图片补充]]
+- [[wiki/fico/sources/生产工单跨月陆续交货TECO重新打开-物料差异结算问题]]
 
 ### 第二批 FICO 基础操作手册
 
@@ -91,6 +102,10 @@ tags: []
 
 - [[wiki/fico/sources/事务代码清单]]
 
+### 跨模块相关资料
+
+- [[wiki/fico/sources/SAP FICO物料价格控制]]：原始 PDF 暂在 `raw/sd/article/202607/`，内容归属 FICO/MM。
+
 ## 核心概念
 
 - [[wiki/fico/concepts/FI 凭证记账]]
@@ -108,7 +123,13 @@ tags: []
 - [[wiki/fico/concepts/GRIR重分类]]
 - [[wiki/fico/concepts/物料分类账差异处理]]
 - [[wiki/fico/concepts/CKM3取值逻辑]]
+- [[wiki/fico/concepts/在建工程转固反向处理]]
+- [[wiki/fico/concepts/成本中心流入工单金额核对]]
+- [[wiki/fico/concepts/生产工单收货与质检取样成本]]
+- [[wiki/fico/concepts/财务报表勾稽检查]]
+- [[wiki/fico/concepts/生产工单跨月TECO与物料差异结算]]
+- [[wiki/fico/concepts/物料价格控制]]
 
 ## 当前状态
 
-`raw/fico/` 当前 34 个有效原始资料已完成本轮整理。后续新增资料时继续按 `raw/<module>/<type>/<YYYYMM>/` 归档，并按来源页、实体页、概念页的方式沉淀。
+`raw/fico/` 当前 40 个有效原始资料已完成本轮整理。后续新增资料时继续按 `raw/<module>/<type>/<YYYYMM>/` 归档，并按来源页、实体页、概念页的方式沉淀。

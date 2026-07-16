@@ -1,7 +1,7 @@
 ---
 module: shared
 kind: source
-updated: 2026-07-08
+updated: 2026-07-15
 source_count: 0
 tags: []
 ---
@@ -22,24 +22,45 @@ tags: []
 - 销售开票怎么冲销？
 - 月结怎么做？
 - 年结余额怎么结转？
+- F.19 GR/IR 重分类怎么理解？
+- 成本中心流入工单金额怎么核对？
+- 在建工程转固后怎么反向处理？
+
+### SD 操作类
+
+- 销售订单怎么创建？
+- 销售退货怎么处理？
+- EC 推送订单是否重复下单怎么判断？
+- 手动 ATP 怎么操作？
+- 物料销售视图怎么扩充？
+- 客户资质校验逻辑是什么？
+- 销售退货移动类型怎么确定？
+- 交货单打印件数为 0 怎么处理？
 
 ### 事务码查询类
 
+- `VA01` 是什么？
+- `VA21` 和 `VA11` 有什么区别？
 - `F-53` 是什么？
 - `BP` 是干什么的？
 - `CJ20N` 怎么用？
 - `MIRO` 和 `MIR6` 有什么区别？
 - `FAGL_FCV` 是做什么的？
 - `ZFIR043` 是什么功能？
+- `ZSDR002` 是什么报表？
+- `VOV6` 和销售退货移动类型有什么关系？
 
 ### 概念解释类
 
+- 什么是销售订单？
+- 什么是框架协议？
 - 什么是客商主数据？
 - 什么是 WBS 元素？
 - GR/IR 重分类是什么意思？
 - 什么是外币评估？
 - 标准价和移动平均价有什么区别？
 - MR21 和 MR22 有什么区别？
+- 什么是费用类采购科目确定？
 
 ### 综合查询类
 
@@ -47,13 +68,14 @@ tags: []
 - 帮我整理采购发票到付款清账流程。
 - 帮我解释销售开票到客户收款的流程。
 - 查一下知识库里有没有物料分类账相关内容。
+- 查一下 SD 订单、交货、开票、退货相关内容。
 
 ## Claude 的检索策略
 
-当用户提出 SAP / FICO / ABAP / MM / PP / QM 相关问题时，Claude 应按以下顺序检索知识库：
+当用户提出 SAP / FICO / ABAP / SD / MM / PP / QM 相关问题时，Claude 应按以下顺序检索知识库：
 
 1. 先看 [[wiki/index]]，判断是否已有入口。
-2. 判断所属模块，FICO 问题优先看 [[wiki/fico/overview]]。
+2. 判断所属模块，FICO 问题优先看 [[wiki/fico/overview]]，SD 问题优先看 [[wiki/sd/overview]]。
 3. 操作类问题优先查 `wiki/<module>/sources/`。
 4. 事务码问题优先查 `wiki/<module>/entities/`。
 5. 概念解释优先查 `wiki/<module>/concepts/`。
@@ -75,6 +97,27 @@ tags: []
 - [[wiki/fico/sources/发票校验]]：采购发票校验
 - [[wiki/fico/sources/销售开票和冲销流程]]：销售开票和冲销
 - [[wiki/fico/sources/GRIR重分类详解]]：GR/IR 重分类
+- [[wiki/fico/sources/SAP F.19 GRIR重分类]]：F.19 GR/IR 重分类补充
+- [[wiki/fico/sources/SAP FICO物料价格控制]]：物料价格控制
+
+## SD 常用入口
+
+- [[wiki/sd/overview]]：SD 模块首页
+- [[wiki/sd/sources/raw资料清单]]：SD 原始资料整理状态
+- [[wiki/sd/sources/SAP S4HANA销售订单处理（从询价到合同）]]：销售订单处理
+- [[wiki/sd/sources/SD销售退货开票发货业务笔记]]：销售退货、开票和发货
+- [[wiki/sd/sources/恒生委外销售订单操作手册]]：销售订单创建示例
+- [[wiki/sd/sources/江西康莱特胶囊注射液手动 ATP 操作手册]]：手动 ATP 操作
+- [[wiki/sd/sources/物料扩充销售视图]]：物料销售视图扩充
+- [[wiki/sd/sources/销售下单客户资质校验业务逻辑]]：客户资质校验
+- [[wiki/sd/sources/销售退货物料移动类型配置]]：销售退货移动类型
+- [[wiki/sd/sources/SAP SD非常见配置点]]：SD 非常见配置点
+
+## MM 常用入口
+
+- [[wiki/mm/overview]]：MM 模块首页
+- [[wiki/mm/sources/raw资料清单]]：MM 原始资料整理状态
+- [[wiki/mm/sources/SAP-MM费用类采购通过物料组确定科目]]：费用类采购科目确定
 
 ## 回答格式建议
 
@@ -136,6 +179,9 @@ tags: []
 
 ## 当前知识库边界
 
-- FICO：已整理 34 个有效原始资料，资料最完整。
-- ABAP、MM、PP、QM：当前 raw 目录暂无有效原始资料，仅有模块骨架。
+- FICO：模块内 40 个有效原始资料已整理，资料最完整。
+- ABAP：已整理 1 个有效原始资料，当前重点是异常处理。
+- SD：已整理 15 个有效原始资料，当前重点是销售订单、销售退货、销售发货、开票、客户资质、ATP 和物料销售视图。
+- MM：暂无独立 raw 原始资料，但已整理 1 个跨模块 PDF 来源页，主题是费用类采购科目确定。
+- PP、QM：当前 raw 目录暂无有效原始资料，仅有模块骨架。
 - 全局 raw 状态见 [[wiki/shared/raw资料总清单]]。

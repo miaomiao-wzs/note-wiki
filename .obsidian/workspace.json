@@ -8,104 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d689cb658973a0c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/fico/article/202607/OKB9 成本要素默认成本中心配置.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OKB9 成本要素默认成本中心配置"
-            }
-          },
-          {
-            "id": "c5a030d380ee6b3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/fico/sources/F-02 特别总账录入.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "F-02 特别总账录入"
-            }
-          },
-          {
-            "id": "5d744be10ad19b30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/fico/sources/F-02 特别总账录入.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "F-02 特别总账录入"
-            }
-          },
-          {
-            "id": "47dbd917740f2d71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/fico/concepts/特别总账.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "特别总账"
-            }
-          },
-          {
-            "id": "5ed8ee2d521cd250",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/fico/concepts/客户特别总账.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "客户特别总账"
-            }
-          },
-          {
-            "id": "bcc43b1b6641efb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/fico/concepts/供应商特别总账.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "供应商特别总账"
-            }
-          },
-          {
-            "id": "a4459ab3f1b84265",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/fico/synthesis/F-02 特别总账录入操作手册.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "F-02 特别总账录入操作手册"
-            }
-          },
-          {
             "id": "5b85150601f759e0",
             "type": "leaf",
             "state": {
@@ -118,9 +20,23 @@
               "icon": "lucide-file",
               "title": "生产工单跨月陆续交货TECO重新打开-物料差异结算问题"
             }
+          },
+          {
+            "id": "76a45489879ff487",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/fico/article/202607/SAP 如何批量扩充（复制）科目主数据到其他子公司复制科目主数据详解 FS15&FS16.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SAP 如何批量扩充（复制）科目主数据到其他子公司复制科目主数据详解 FS15&FS16"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 469.5
+    "width": 550.5
   },
   "right": {
     "id": "05a38a73cef339e8",
@@ -289,7 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388.5
+    "width": 824.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -304,49 +220,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bbf3a95200eac3a3",
+  "active": "d4847536e48d912f",
   "lastOpenFiles": [
-    "raw/Clippings/SAP 如何批量扩充（复制）科目主数据到其他子公司复制科目主数据详解 FS15&FS16.md",
-    "wiki/fico/synthesis/F-02 特别总账录入操作手册.md",
-    "raw/fico/article/202607/生产工单跨月陆续交货TECO重新打开-物料差异结算问题.md",
-    "raw/Clippings",
-    "raw/assets/Pasted image 20260617103323.png",
-    "raw/assets/Pasted image 20260616140913.png",
-    "raw/assets/Pasted image 20260616140537.png",
-    "raw/assets/Pasted image 20260616140526.png",
-    "raw/assets/Pasted image 20260616140126.png",
-    "raw/assets/Pasted image 20260616140057.png",
-    "wiki/fico/concepts/供应商特别总账.md",
-    "wiki/fico/concepts/客户特别总账.md",
-    "wiki/fico/concepts/特别总账.md",
-    "wiki/fico/sources/F-02 特别总账录入.md",
-    "raw/fico/article/202607/OKB9 成本要素默认成本中心配置.md",
-    "wiki/fico/entities/AW01N.md",
-    "数据库.base",
-    "欢迎.md",
-    "wiki/fico/concepts/FI 凭证记账.md",
-    "wiki/fico/entities/F-65.md",
-    "wiki/fico/sources/财务月结操作.md",
-    "wiki/fico/entities/AB03.md",
-    "raw/fico/article/202607/CO 分摊分配配置说明.md",
-    "raw/fico/article/202607/ABAW 资产减值准备.md",
-    "wiki/fico/entities/BP.md",
-    "wiki/fico/sources/客商创建.md",
-    "wiki/fico/sources/财务客商创建.md",
-    "wiki/fico/sources/WBS 创建操作手册.md",
-    "wiki/fico/concepts/WBS 元素.md",
-    "wiki/fico/sources/FICO 综合资料.md",
-    "LLM WIKI.md",
-    "wiki/fico/concepts/项目成本对象.md",
-    "wiki/shared/terminal-claude-startup.md",
-    "wiki/fico/entities/MR21.md",
-    "raw/fico/article/202607/~$事务代码清单.xlsx",
-    "raw/fico/article/202607/~$FICO.docx",
-    "raw/fico/article/202607/~$凭证查找业务单据方法.docx",
-    "raw/fico/article/202607/事务代码清单.xlsx",
-    "raw/assets",
-    "wiki/templates",
-    "raw/fico/article/202607/SAP实施项目_FICO_操作手册_凭证记账.docx",
-    "raw/fico/article/202607/SAP实施项目_FICO_操作手册_客商创建.docx"
+    "raw/abap/article/202607/ABAP 异常处理基础与核心概念.md",
+    "raw/fico/article/202607/SAP 如何批量扩充（复制）科目主数据到其他子公司复制科目主数据详解 FS15&FS16.md",
+    "raw/fico/article/202607/ZFIR043维护金税发票与形式发票关系.md",
+    "wiki/mm/sources/raw资料清单.md",
+    "wiki/mm/entities/OMQW.md",
+    "wiki/mm/entities/OMSF.md",
+    "wiki/mm/entities/OMSK.md",
+    "wiki/sd/entities/VCH2.md",
+    "wiki/sd/entities/MM03.md",
+    "wiki/sd/entities/MM02.md",
+    "wiki/sd/entities/MM01.md",
+    "wiki/sd/entities/VBX1.md",
+    "wiki/sd/entities/OVA2.md",
+    "wiki/sd/entities/VAUP.md",
+    "wiki/sd/entities/VOF3.md",
+    "wiki/sd/entities/OVK6.md",
+    "wiki/sd/entities/VOTXN.md",
+    "wiki/sd/entities/VOFA.md",
+    "wiki/sd/entities/OVLQ.md",
+    "wiki/sd/entities/V_TVAG.md",
+    "wiki/sd/entities/OVLY.md",
+    "wiki/sd/entities/VOV6.md",
+    "wiki/sd/entities/ZMMU019.md",
+    "wiki/sd/entities/CO09.md",
+    "wiki/sd/entities/ZSDR002.md",
+    "wiki/sd/entities/VL02N.md",
+    "raw/assets/销售退货物料移动类型配置-07.png",
+    "raw/assets/销售退货物料移动类型配置-06.png",
+    "raw/assets/销售退货物料移动类型配置-05.png",
+    "raw/assets/销售退货物料移动类型配置-04.png",
+    "raw/assets/销售退货物料移动类型配置-03.png",
+    "raw/assets/销售退货物料移动类型配置-02.png",
+    "raw/assets/销售退货物料移动类型配置-01.png",
+    "raw/assets/物料扩充销售视图-08.png",
+    "raw/assets/物料扩充销售视图-07.png",
+    "raw/assets/物料扩充销售视图-06.png",
+    "raw/sd/article/202607/SAP FICO物料价格控制_sap s+3 v+2.pdf",
+    "raw/sd/article/202607/SAP SD非常见配置点.pdf",
+    "raw/sd/article/202607/SAP-MM费用类采购通过物料组确定科目_sap费用化采购-CSDN博客.pdf",
+    "raw/fico/article/202607/~$IR043维护金税发票与形式发票关系.docx",
+    "wiki/sd/synthesis",
+    "wiki/sd/sources",
+    "wiki/sd/entities",
+    "wiki/sd/concepts",
+    "wiki/sd/comparisons",
+    "wiki/sd"
   ]
 }

@@ -4,8 +4,8 @@
   "title": "分析文章并初始化知识库",
   "titleGenerationStatus": "success",
   "createdAt": 1783338698105,
-  "updatedAt": 1783482996376,
-  "lastResponseAt": 1783482996376,
+  "updatedAt": 1784106118375,
+  "lastResponseAt": 1784106118375,
   "sessionId": "037d1ecf-3ef2-4b01-8922-08f48ca6aa64",
   "providerState": {
     "providerSessionId": "037d1ecf-3ef2-4b01-8922-08f48ca6aa64",
@@ -87,12 +87,12 @@
   "currentNote": "LLM WIKI.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 797,
+    "inputTokens": 849,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 87552,
+    "cacheReadInputTokens": 145408,
     "contextWindow": 200000,
-    "contextTokens": 88349,
-    "percentage": 44,
+    "contextTokens": 146257,
+    "percentage": 73,
     "contextWindowIsAuthoritative": true
   }
 }

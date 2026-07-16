@@ -17,26 +17,26 @@ tags:
 
 1.生产工单计划生产数量10000个
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iccUeWbl6GunQsONcMFPMbQyQvUwhBuELe4MuaialFcWwSjc46dZjzz1E3QViaXpXtFlzJdsUm2UKp0AHRDownsBT5OocBkHWEMzyTe74ZJNSU/640?wx_fmt=png&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![[raw/assets/生产工单跨月陆续交货TECO重新打开-物料差异结算问题-01.webp]]
 
 2.生产工单分别在2017.8及2017.9发生过两次交货，交货数量都为5000个
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/iccUeWbl6GumHEQmouq52FvUlpvrvR18Jk27kO1ER6kLZe2IcmQgajx7wESvv1AcvWq2Xx3SUovPXrfLRLmmkbpuECw0XtQmetyPlAVc9icbQ/640?wx_fmt=png&watermark=1#imgIndex=1)
+![[raw/assets/生产工单跨月陆续交货TECO重新打开-物料差异结算问题-02.png]]
 
 3.生产工单分别在2017.8和2017.9发生过两次完工入库转出和两次结算转出材料成本差异
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iccUeWbl6GunTAkEMA8jj0ia8H6DwGhKu7Ig57o30RaicNS0ibqHoDt4ZCYqLgHQqh5U1IdoIM9qtzZV6gibJNRZmOMtEd4PI6zJvjoMO0vOAOcI/640?wx_fmt=png&watermark=1#imgIndex=2)
+![[raw/assets/生产工单跨月陆续交货TECO重新打开-物料差异结算问题-03.png]]
 
 4.生产工单在TECO后参与当月结算，结算完次月被打开TECO，在交完剩下的5000个后，再次TECO参与当月结算
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iccUeWbl6GukEk8f5hicgQMcuPCPtvFxC3T4hm35LQduh9s8xtrFiabm2lvlvpfro16V5tvDanC5ZEVhvJRGrsfkmlbbQrjjqw0gzwLY6ITgZ4/640?wx_fmt=jpeg&watermark=1#imgIndex=4)
+![[raw/assets/生产工单跨月陆续交货TECO重新打开-物料差异结算问题-04.jpg]]
 
 5.查看2017.8该物料的物料账：结算出已交货5000的物料差异
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/iccUeWbl6GumhsgIf74m5CgwKicTI4zLibgXb5HdALx1ib3ibKs1Bugl74bpDEyGwZl7GkUPQ6nG3IyQBPczFEHx39LZ3j2q2lgKUupAafDqEiaE8/640?wx_fmt=png&watermark=1#imgIndex=5)
+![[raw/assets/生产工单跨月陆续交货TECO重新打开-物料差异结算问题-05.png]]
 
 6查看2017.9该物料的物料账：结算出剩余5000个的物料差异
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/iccUeWbl6GunuButlhgQW7MO2FXPl7BicF3nCQptM2TToVmALNwPnuCkYV2W7eLvJJQMRvYLVjPpQT0PopYnlz6dZFxUIPUWew8IVzTFfHeDc/640?wx_fmt=png&watermark=1#imgIndex=7)
+![[raw/assets/生产工单跨月陆续交货TECO重新打开-物料差异结算问题-06.png]]
 
 **微信扫一扫赞赏作者**
