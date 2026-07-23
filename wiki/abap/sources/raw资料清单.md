@@ -1,7 +1,7 @@
 ---
 module: abap
 kind: source
-updated: 2026-07-15
+updated: 2026-07-23
 source_count: 1
 tags: []
 ---
@@ -25,10 +25,6 @@ tags: []
 | --- | --- |
 | `raw/abap/article/202607/ABAP 异常处理基础与核心概念.md` | [[wiki/abap/sources/ABAP 异常处理基础与核心概念]] |
 
-## 待处理资料
+## 当前状态
 
-本轮 ABAP raw 资料已整理完成。
-
-## 说明
-
-`raw/Clippings/SAP-ABAP：ABAP异常处理基础与核心概念 —— 从机制到实践的系统化认知.md` 是原始剪藏位置，本次已复制归档到规范目录 `raw/abap/article/202607/`。原始剪藏文件未删除。
+当前 `raw/abap/` 物理目录没有有效原始文件；ABAP 异常处理来源页和截图仍保留在 wiki 与 `raw/assets/` 中，但对应原始 Markdown 文件缺失，是否恢复需单独确认。本页不把缺失文件计入 raw 资料统计。

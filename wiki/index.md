@@ -1,8 +1,8 @@
 ---
 module: shared
 kind: index
-updated: 2026-07-15
-source_count: 59
+updated: 2026-07-23
+source_count: 67
 tags: []
 ---
 
@@ -49,12 +49,17 @@ tags: []
 - [[wiki/sd/sources/销售下单客户资质校验业务逻辑]]：客户资质校验逻辑
 - [[wiki/sd/sources/销售退货物料移动类型配置]]：销售退货移动类型配置
 - [[wiki/sd/sources/SAP SD非常见配置点]]：SD 非常见配置点
+- [[wiki/sd/sources/SD 出口与 Intrastat]]：出口、Intrastat 与贸易合规
+- [[wiki/sd/sources/SD Rebate]]：返利协议、应计与结算
 - [[wiki/sd/concepts/销售订单]]：销售订单核心概念
 - [[wiki/sd/concepts/销售退货]]：销售退货
 - [[wiki/sd/concepts/销售发货]]：销售发货
 - [[wiki/sd/concepts/SD客户资质校验]]：客户资质校验
 - [[wiki/sd/concepts/SD物料销售视图]]：物料销售视图
 - [[wiki/sd/concepts/销售ATP确认]]：ATP 确认
+- [[wiki/sd/concepts/出口与贸易合规]]：出口与贸易合规
+- [[wiki/sd/concepts/Intrastat]]：欧盟内部贸易统计
+- [[wiki/sd/concepts/SD Rebate 与返利应计]]：SD 返利应计与结算
 
 ## MM 已整理内容
 
@@ -111,6 +116,8 @@ tags: []
 - [[wiki/fico/sources/财务月结操作]]
 - [[wiki/fico/sources/财务年结]]
 - [[wiki/fico/sources/年结余额结转]]
+- [[wiki/fico/sources/SAP 月结全景图]]
+- [[wiki/fico/sources/SAP 年结与财务报表]]
 
 ### 第五批：成本、资产与项目相关
 
@@ -127,9 +134,10 @@ tags: []
 - [[wiki/fico/sources/ZFIR043维护金税发票与形式发票关系-补充]]
 - [[wiki/fico/sources/金税发票冲销作废]]
 
-### 第七批：补充 Word 资料
+### 第七批：补充资料
 
-- [[wiki/fico/sources/FICO 综合资料]]
+- [[wiki/fico/sources/FICO 综合资料]]：FICO 综合 Markdown 资料，已修复图片引用
+- [[wiki/fico/sources/FI-AA 事务类型]]：固定资产事务类型配置与应用
 - [[wiki/fico/sources/通过凭证查找业务单据方法]]
 - [[wiki/fico/sources/F-02 特别总账录入]]
 - [[wiki/fico/synthesis/F-02 特别总账录入操作手册]]

@@ -1,7 +1,7 @@
 ---
 module: shared
 kind: log
-updated: 2026-07-15
+updated: 2026-07-16
 source_count: 59
 tags: []
 ---
@@ -98,3 +98,17 @@ tags: []
 - 做了什么：整理新增 FICO Markdown、SD Markdown 和 3 个 PDF；使用 `opendataloader-pdf` 解析 PDF；为 F.19 GR/IR 重分类、在建工程转固反向处理、成本中心流入工单核对、生产工单收货与质检取样成本、资产负债表与利润表勾稽、生产工单跨月 TECO、SD 销售退货、销售订单、ATP、物料销售视图、客户资质校验、销售退货移动类型、SD 非常见配置点、费用类采购科目确定等主题建立来源页、实体页和概念页
 - 结果：更新 [[wiki/fico/sources/raw资料清单]]、[[wiki/sd/sources/raw资料清单]]、[[wiki/mm/sources/raw资料清单]]、[[wiki/shared/raw资料总清单]]、[[wiki/index]]、[[wiki/overview]]、[[wiki/fico/overview]]、[[wiki/sd/overview]]、[[wiki/mm/overview]]；并将新增 Markdown 图片复制到 `raw/assets/` 后改为 Obsidian 嵌入
 - 后续：如需处理当前工作树中缺失的旧 `ZFIR043` Word 原件，应先确认是否恢复；后续新增 PDF 仍必须用 `opendataloader-pdf` 解析
+
+## 2026-07-16 | 重新整理 FICO 综合资料 | FICO
+- 主题：`FICO.md` 综合资料重新整理与图片修复
+- 来源：`raw/fico/article/202607/FICO.md`
+- 做了什么：确认原 `FICO.docx` 已替换为 Markdown；从此前图片目录复制 114 张缺失图片到 `raw/assets/`，并将原文 Markdown 图片、HTML 图片和旧 wiki 图片引用统一改为 Obsidian 嵌入；重写 [[wiki/fico/sources/FICO 综合资料]]，补充报表勾稽、事务码、凭证冲销、供应商客户往来、采购发票与 GR/IR、成本月结、物料分类账、固定资产、WBS、销售开票等主题索引
+- 结果：更新 [[wiki/fico/sources/raw资料清单]]、[[wiki/fico/overview]] 和 [[wiki/index]]，将来源路径从 `FICO.docx` 调整为 `FICO.md`
+- 后续：原文中存在高风险操作、debug、默认密码和带 token 的外部链接内容，后续如需沉淀为正式操作手册，应先脱敏并经过测试系统验证
+
+## 2026-07-23 | 整理新增 FICO / SD 剪藏资料 | FICO / SD
+- 主题：新增 FI-AA 事务类型、SAP 月结全景图、SAP 年结与财务报表、SD 出口与 Intrastat、SD Rebate 五篇原始资料
+- 来源：`raw/Clippings/`，归档到 `raw/fico/article/202607/` 和 `raw/sd/article/202607/`
+- 做了什么：保留五篇原始剪藏并复制到模块化 raw；将 14 张无敏感公开图片本地化到 `raw/assets/`；建立五篇来源页；新增出口/Intrastat、SD Rebate 与返利应计概念页；同步 FICO/SD raw 清单、模块首页、全局索引和总清单
+- 结果：新增 [[wiki/fico/sources/FI-AA 事务类型]]、[[wiki/fico/sources/SAP 月结全景图]]、[[wiki/fico/sources/SAP 年结与财务报表]]、[[wiki/sd/sources/SD 出口与 Intrastat]]、[[wiki/sd/sources/SD Rebate]]；AO 映射、国家门槛、税码、底表和自定义配置均保留待核验边界
+- 后续：如需把 FI-AA、出口合规或 Rebate 继续拆成实体/操作手册，应先结合当前系统版本和企业配置验证

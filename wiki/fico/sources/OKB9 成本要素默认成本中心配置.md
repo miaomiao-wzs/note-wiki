@@ -1,7 +1,7 @@
 ---
 module: fico
 kind: source
-updated: 2026-07-07
+updated: 2026-07-23
 source_count: 1
 tags: []
 ---
@@ -23,6 +23,12 @@ tags: []
 - `OKB9` 默认值优先级最低，会被手工填写、订单/WBS 结算规则、替代规则（`OBBH`）覆盖。
 - 不启用物料分类账时，差异科目可通过 `OKB9` 按公司分配到成本中心。
 - 启用物料分类账后，差异处理更多依赖 `CKMLCP`，通常不再依赖 `OKB9`。
+
+## 操作截图
+
+以下截图对应 `OKB9` 默认成本中心维护界面。实际配置前应确认成本要素、公司代码、控制范围和成本中心的有效期间。
+
+![[raw/assets/Pasted image 20260617103323.png]]
 
 ## 相关实体
 - [[wiki/fico/entities/OKB9]]

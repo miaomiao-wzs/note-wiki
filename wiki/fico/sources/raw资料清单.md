@@ -1,8 +1,8 @@
 ---
 module: fico
 kind: source
-updated: 2026-07-15
-source_count: 40
+updated: 2026-07-23
+source_count: 43
 tags: []
 ---
 
@@ -12,13 +12,15 @@ tags: []
 
 ## 汇总
 
+> 当前物理文件中另有 1 份内容近重复的 FS15/FS16 Markdown 资料，已在下方登记但暂不重复整理；因此物理有效资料数为 44，按主题去重后的整理口径仍为 43。
+
 | 类别 | 数量 | 当前状态 |
 | --- | ---: | --- |
-| Markdown | 12 | 已完成整理 |
-| Word 文档 | 20 | 已完成整理 |
+| Markdown | 16 | 已完成整理 |
+| Word 文档 | 19 | 已完成整理 |
 | PDF | 7 | 已使用 `opendataloader-pdf` 解析并完成整理 |
 | Excel | 1 | 已完成事务代码清单整理 |
-| 合计 | 40 | FICO 当前 raw 资料已完成本轮整理 |
+| 合计 | 44 | FICO 当前 raw 资料已完成本轮整理 |
 
 ## 已整理资料
 
@@ -30,7 +32,8 @@ tags: []
 | `raw/fico/article/202607/CO 分摊分配配置说明.md` | [[wiki/fico/sources/CO 分摊分配配置说明]] |
 | `raw/fico/article/202607/OKB9 成本要素默认成本中心配置.md` | [[wiki/fico/sources/OKB9 成本要素默认成本中心配置]] |
 | `raw/fico/article/202607/主营业务成本科目是否勾选成本要素.md` | [[wiki/fico/sources/主营业务成本科目是否勾选成本要素]] |
-| `raw/fico/article/202607/SAP 如何批量扩充科目主数据到其他子公司.md` | [[wiki/fico/sources/SAP 如何批量扩充科目主数据到其他子公司]] |
+| `raw/fico/article/202607/SAP 如何批量扩充科目主数据到其他子公司.md` | [[wiki/fico/sources/SAP 如何批量扩充科目主数据到其他子公司]] | 已补充 15 张操作截图 |
+| `raw/fico/article/202607/SAP 如何批量扩充（复制）科目主数据到其他子公司复制科目主数据详解 FS15&FS16.md` | [[wiki/fico/sources/SAP 如何批量扩充科目主数据到其他子公司]] | 内容近重复，暂保留原始资料，未重复嵌入截图 |
 
 ### 2026-07-15 新增 Markdown
 
@@ -42,7 +45,7 @@ tags: []
 | `raw/fico/article/202607/SAP生产工单收货数量与质检取样成本.md` | [[wiki/fico/sources/SAP生产工单收货数量与质检取样成本]] |
 | `raw/fico/article/202607/SAP资产负债表与利润表勾稽检查.md` | [[wiki/fico/sources/SAP资产负债表与利润表勾稽检查]] |
 | `raw/fico/article/202607/ZFIR043维护金税发票与形式发票关系.md` | [[wiki/fico/sources/ZFIR043维护金税发票与形式发票关系-图片补充]] |
-| `raw/fico/article/202607/生产工单跨月陆续交货TECO重新打开-物料差异结算问题.md` | [[wiki/fico/sources/生产工单跨月陆续交货TECO重新打开-物料差异结算问题]] |
+| `raw/fico/article/202607/生产工单跨月陆续交货TECO重新打开-物料差异结算问题.md` | [[wiki/fico/sources/生产工单跨月陆续交货TECO重新打开-物料差异结算问题]] | 已补充 6 张操作截图 |
 
 ### 第二批 FICO 基础操作手册
 
@@ -69,6 +72,8 @@ tags: []
 | `raw/fico/article/202607/SAP实施项目_FICO_操作手册_财务月结操作.docx` | [[wiki/fico/sources/财务月结操作]] |
 | `raw/fico/article/202607/SAP实施项目_FICO_操作手册_财务年结.docx` | [[wiki/fico/sources/财务年结]] |
 | `raw/fico/article/202607/年结余额结转操作手册 (用户).docx` | [[wiki/fico/sources/年结余额结转]] |
+| `raw/fico/article/202607/SAP 月结全景图从精密运转到业务洞察.md` | [[wiki/fico/sources/SAP 月结全景图]] |
+| `raw/fico/article/202607/SAP年结与财务报表：账结法vs表结法全解析.md` | [[wiki/fico/sources/SAP 年结与财务报表]] |
 
 ### 第五批：成本、资产与项目相关
 
@@ -87,11 +92,12 @@ tags: []
 | `raw/fico/article/202607/SAP实施项目_FICO_操作手册_销售开票和冲销流程.docx` | [[wiki/fico/sources/销售开票和冲销流程]] |
 | `raw/fico/article/202607/金税发票冲销作废操作手册.docx` | [[wiki/fico/sources/金税发票冲销作废]] |
 
-### 第七批：补充 Word 资料
+### 第七批：补充资料
 
 | 原始资料 | 对应来源页 |
 | --- | --- |
-| `raw/fico/article/202607/FICO.docx` | [[wiki/fico/sources/FICO 综合资料]] |
+| `raw/fico/article/202607/FICO.md` | [[wiki/fico/sources/FICO 综合资料]] |
+| `raw/fico/article/202607/SAP FICO基础笔记：AA模块的事务类型.md` | [[wiki/fico/sources/FI-AA 事务类型]] |
 | `raw/fico/article/202607/通过凭证查找业务单据方法.docx` | [[wiki/fico/sources/通过凭证查找业务单据方法]] |
 
 ### 第八批：PDF 专题资料
@@ -120,7 +126,7 @@ tags: []
 
 ## 待处理资料
 
-本轮 FICO raw 资料已整理完成。
+本轮 FICO raw 资料已整理完成；新增月结、年结和 FI-AA 资料已建立来源页，并保留原始剪藏副本。
 
 说明：`raw/fico/article/202607/~$事务代码清单.xlsx` 是 Office 临时锁文件，不作为有效原始资料整理，也未删除。
 

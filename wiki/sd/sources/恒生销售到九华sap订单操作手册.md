@@ -1,7 +1,7 @@
 ---
 module: sd
 kind: source
-updated: 2026-07-15
+updated: 2026-07-23
 source_count: 1
 tags: []
 ---
@@ -24,6 +24,24 @@ tags: []
 5. 输入物料号、订单数量和金额。
 6. 向右滚动维护单价，回车确认。
 7. 保存后触发审批流，审批完成后再做交货单。
+
+## 操作截图
+
+以下截图按销售范围、售达方、客户参考、物料数量、价格和审批流步骤归档。截图中的客户和订单数据仅作为操作示例。
+
+![[raw/assets/恒生销售到九华sap订单操作手册-01.png]]
+
+![[raw/assets/恒生销售到九华sap订单操作手册-02.png]]
+
+![[raw/assets/恒生销售到九华sap订单操作手册-03.png]]
+
+![[raw/assets/恒生销售到九华sap订单操作手册-04.png]]
+
+![[raw/assets/恒生销售到九华sap订单操作手册-05.png]]
+
+![[raw/assets/恒生销售到九华sap订单操作手册-06.png]]
+
+![[raw/assets/恒生销售到九华sap订单操作手册-07.png]]
 
 ## 相关实体
 - [[wiki/sd/entities/VA01]]

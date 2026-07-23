@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784719123794-l1bgspgeo",
+  "providerId": "claude",
+  "title": "开启新对话",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784719123798,
+  "updatedAt": 1784719595865,
+  "lastResponseAt": 1784719495689,
+  "sessionId": "938678f8-e75c-432b-8397-6d3decaaeaac",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "938678f8-e75c-432b-8397-6d3decaaeaac"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 800,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 60736,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 61536,
+    "percentage": 31
+  }
+}

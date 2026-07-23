@@ -1,7 +1,7 @@
 ---
 module: fico
 kind: source
-updated: 2026-07-07
+updated: 2026-07-23
 source_count: 1
 tags: []
 ---
@@ -24,6 +24,20 @@ tags: []
 - `ABAW` 过账后先更新资产子模块，总账凭证通常在月底运行 `AFAB` 后生成。
 - 错误凭证可通过 `AB08` 冲销。
 - 常见报错包括 `AA629` 和 `AA816`，通常与事务类型、折旧范围负值、总账科目分配有关。
+
+## 配置截图
+
+原始资料中的界面截图已归档，用于辅助识别 `ABAW` 资产重估、事务类型和过账相关字段。正式过账前仍需确认资产、折旧范围、事务类型和会计期间。
+
+![[raw/assets/Pasted image 20260616140057.png]]
+
+![[raw/assets/Pasted image 20260616140126.png]]
+
+![[raw/assets/Pasted image 20260616140537.png]]
+
+![[raw/assets/Pasted image 20260616140526.png]]
+
+![[raw/assets/Pasted image 20260616140913.png]]
 
 ## 相关实体
 - [[wiki/fico/entities/ABAW]]

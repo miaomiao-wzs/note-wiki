@@ -1,8 +1,8 @@
 ---
 module: fico
 kind: overview
-updated: 2026-07-15
-source_count: 40
+updated: 2026-07-23
+source_count: 44
 tags: []
 ---
 
@@ -67,6 +67,8 @@ tags: []
 - [[wiki/fico/sources/财务月结操作]]
 - [[wiki/fico/sources/财务年结]]
 - [[wiki/fico/sources/年结余额结转]]
+- [[wiki/fico/sources/SAP 月结全景图]]
+- [[wiki/fico/sources/SAP 年结与财务报表]]
 
 ### 第五批：成本、资产与项目相关
 
@@ -83,9 +85,10 @@ tags: []
 - [[wiki/fico/sources/ZFIR043维护金税发票与形式发票关系-补充]]
 - [[wiki/fico/sources/金税发票冲销作废]]
 
-### 第七批：补充 Word 资料
+### 第七批：补充资料
 
-- [[wiki/fico/sources/FICO 综合资料]]
+- [[wiki/fico/sources/FICO 综合资料]]：已按 `FICO.md` 重新整理，并修复原文图片引用
+- [[wiki/fico/sources/FI-AA 事务类型]]
 - [[wiki/fico/sources/通过凭证查找业务单据方法]]
 
 ### 第八批：PDF 专题资料
@@ -129,7 +132,8 @@ tags: []
 - [[wiki/fico/concepts/财务报表勾稽检查]]
 - [[wiki/fico/concepts/生产工单跨月TECO与物料差异结算]]
 - [[wiki/fico/concepts/物料价格控制]]
+- [[wiki/fico/concepts/FI-AA 事务类型]]
 
 ## 当前状态
 
-`raw/fico/` 当前 40 个有效原始资料已完成本轮整理。后续新增资料时继续按 `raw/<module>/<type>/<YYYYMM>/` 归档，并按来源页、实体页、概念页的方式沉淀。
+`raw/fico/` 当前 43 个按主题去重的有效原始资料已完成本轮整理。新增月结全景、年结与财务报表、FI-AA 事务类型来源页已纳入；其中 `raw/fico/article/202607/FICO.md` 已重新整理到 [[wiki/fico/sources/FICO 综合资料]]，原文图片统一迁移到 `raw/assets/`。

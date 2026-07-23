@@ -1,8 +1,8 @@
 ---
 module: sd
 kind: overview
-updated: 2026-07-15
-source_count: 15
+updated: 2026-07-23
+source_count: 17
 tags: []
 ---
 
@@ -27,7 +27,9 @@ tags: []
 - [[wiki/sd/sources/江西康莱特胶囊注射液手动 ATP 操作手册]]：手动 ATP 操作
 - [[wiki/sd/sources/销售下单客户资质校验业务逻辑]]：客户资质校验逻辑
 - [[wiki/sd/sources/销售退货物料移动类型配置]]：销售退货移动类型配置
-- [[wiki/sd/sources/SAP SD非常见配置点]]：SD 非常见配置点
+- [[wiki/sd/sources/SAP SD非常见配置点]]
+- [[wiki/sd/sources/SD 出口与 Intrastat]]：出口文档、Intrastat 和贸易合规
+- [[wiki/sd/sources/SD Rebate]]：返利协议、应计和结算
 - [[wiki/sd/entities/VA01]]：创建销售凭证
 - [[wiki/sd/entities/VA02]]：修改销售凭证
 - [[wiki/sd/entities/VA03]]：显示销售凭证
@@ -73,7 +75,10 @@ tags: []
 - [[wiki/sd/concepts/销售ATP确认]]
 - [[wiki/sd/concepts/销售退货移动类型]]
 - [[wiki/sd/concepts/SD非常见配置点]]
+- [[wiki/sd/concepts/出口与贸易合规]]
+- [[wiki/sd/concepts/Intrastat]]
+- [[wiki/sd/concepts/SD Rebate 与返利应计]]
 
 ## 当前状态
 
-`raw/sd/` 当前 15 个有效原始资料已完成本轮整理。后续新增 SD 原始资料后，继续按 `raw/sd/<type>/<YYYYMM>/` 归档，再整理到 `wiki/sd/sources/`，并根据内容补充实体页、概念页、对比页或综合页。
+`raw/sd/` 当前 17 个有效原始资料已完成本轮整理。新增出口/Intrastat 与 Rebate 来源页已纳入；后续新增 SD 原始资料后，继续按 `raw/sd/<type>/<YYYYMM>/` 归档，再整理到 `wiki/sd/sources/`，并根据内容补充实体页、概念页、对比页或综合页。

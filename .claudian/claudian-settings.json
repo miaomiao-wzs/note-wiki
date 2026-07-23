@@ -1,12 +1,12 @@
 {
-  "userName": "淼淼",
+  "userName": "最爱的用户",
   "permissionMode": "yolo",
   "model": "haiku",
   "thinkingBudget": "off",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
-  "titleGenerationModel": "",
+  "titleGenerationModel": "claude-code/gpt-5.6-luna",
   "excludedTags": [],
   "mediaFolder": "",
   "systemPrompt": "",
@@ -26,29 +26,133 @@
     "claude": {
       "safeMode": "acceptEdits",
       "cliPath": "",
-      "cliPathsByHost": {},
+      "cliPathsByHost": {
+        "device:ecc0cd74-ce62-4b62-a505-64d085d6bf24": "/opt/homebrew/bin/claude"
+      },
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
-      "enableOpus1M": false,
-      "enableSonnet1M": false,
-      "customModels": "",
+      "customModels": "gpt-5.6-luna",
       "lastModel": "haiku",
-      "environmentVariables": "",
+      "modelEnvironmentType": "",
+      "titleModelEnvironmentType": "",
+      "environmentVariables": "\"ANTHROPIC_BASE_URL\": \"https://sub2api.aibeehive.icu/\",\n    \"ANTHROPIC_AUTH_TOKEN\": \"sk-b135423fc4d9a866891f7c18082fcd6b50eb1058301f37d6e09ac015dbc74b8e\",\n    \"ANTHROPIC_DEFAULT_SONNET_MODEL\": \"gpt-5.6-luna\",\n    \"ANTHROPIC_DEFAULT_SONNET_MODEL_NAME\": \"gpt-5.6-luna\",\n    \"ANTHROPIC_DEFAULT_OPUS_MODEL\": \"gpt-5.6-luna\",\n    \"ANTHROPIC_DEFAULT_OPUS_MODEL_NAME\": \"gpt-5.6-luna\",\n    \"ANTHROPIC_MODEL\": \"gpt-5.6-luna\",\n    \"ANTHROPIC_DEFAULT_HAIKU_MODEL_NAME\": \"gpt-5.6-luna\",\n    \"ANTHROPIC_DEFAULT_HAIKU_MODEL\": \"gpt-5.6-luna\",\n    \"CLAUDE_CODE_SUBAGENT_MODEL\": \"gpt-5.6-luna\",\n    \"ANTHROPIC_DEFAULT_FABLE_MODEL\": \"gpt-5.6-luna\",\n    \"ANTHROPIC_DEFAULT_FABLE_MODEL_NAME\": \"gpt-5.6-luna\",",
       "environmentHash": ""
     },
     "codex": {
-      "enabled": false,
-      "safeMode": "workspace-write",
+      "enabled": true,
+      "safeMode": "read-only",
       "cliPath": "",
-      "cliPathsByHost": {},
-      "customModels": "",
-      "reasoningSummary": "detailed",
+      "cliPathsByHost": {
+        "device:ecc0cd74-ce62-4b62-a505-64d085d6bf24": "/opt/homebrew/bin/codex"
+      },
+      "customModels": "gpt-5.6-sol\ngpt-5.6-terra\ngpt-5.6-luna\n",
+      "discoveredModels": [
+        {
+          "model": "gpt-5.6-sol",
+          "displayName": "gpt-5.6-sol",
+          "description": "gpt-5.6-sol",
+          "supportedReasoningEfforts": [
+            {
+              "value": "none",
+              "description": "Disable Thinking"
+            },
+            {
+              "value": "high",
+              "description": "Enabled Thinking"
+            }
+          ],
+          "defaultReasoningEffort": "high",
+          "serviceTiers": [],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": true
+        },
+        {
+          "model": "gpt-5.6-terra",
+          "displayName": "gpt-5.6-terra",
+          "description": "gpt-5.6-terra",
+          "supportedReasoningEfforts": [
+            {
+              "value": "none",
+              "description": "Disable Thinking"
+            },
+            {
+              "value": "high",
+              "description": "Enabled Thinking"
+            }
+          ],
+          "defaultReasoningEffort": "high",
+          "serviceTiers": [],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": false
+        },
+        {
+          "model": "gpt-5.6-luna",
+          "displayName": "gpt-5.6-luna",
+          "description": "gpt-5.6-luna",
+          "supportedReasoningEfforts": [
+            {
+              "value": "none",
+              "description": "Disable Thinking"
+            },
+            {
+              "value": "high",
+              "description": "Enabled Thinking"
+            }
+          ],
+          "defaultReasoningEffort": "high",
+          "serviceTiers": [],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": false
+        },
+        {
+          "model": "gpt-image-2",
+          "displayName": "gpt-image-2",
+          "description": "gpt-image-2",
+          "supportedReasoningEfforts": [
+            {
+              "value": "none",
+              "description": "Disable Thinking"
+            },
+            {
+              "value": "high",
+              "description": "Enabled Thinking"
+            }
+          ],
+          "defaultReasoningEffort": "high",
+          "serviceTiers": [],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": false
+        }
+      ],
+      "modelAliases": {},
+      "visibleModels": [
+        "gpt-image-2",
+        "gpt-5.6-luna",
+        "gpt-5.6-terra"
+      ],
+      "reasoningSummary": "concise",
       "environmentVariables": "",
       "environmentHash": "",
-      "installationMethodsByHost": {
-        "device:ecc0cd74-ce62-4b62-a505-64d085d6bf24": "native-windows"
-      },
+      "catalogTimestamp": 1784719051489,
+      "catalogFingerprint": "1:17f83ea5ce504ba25e6c9b6fd781d61f4dd77a3cf66f75631df9fe799969977b",
+      "installationMethodsByHost": {},
       "wslDistroOverridesByHost": {}
     },
     "opencode": {
@@ -88,6 +192,7 @@
   "savedProviderPermissionMode": {
     "claude": "yolo"
   },
+  "pendingProviderSessionInvalidations": {},
   "lastCustomModel": "",
   "maxTabs": 5,
   "enableAutoScroll": true,

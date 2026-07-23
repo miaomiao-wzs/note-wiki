@@ -17,7 +17,8 @@
     "claude-mem@thedotmack": false,
     "swift-lsp@claude-plugins-official": false,
     "claude-hud@claude-hud": false,
-    "pua@pua-skills": true,
-    "superpowers@claude-plugins-official": false
+    "pua@pua-skills": false,
+    "superpowers@claude-plugins-official": false,
+    "mattpocock-skills@mattpocock": false
   }
 }
