@@ -11,7 +11,6 @@ tags: [rebate, 返利, 应计]
 ## 来源信息
 - 来源类型：article / Markdown 剪藏
 - 原始位置：`raw/sd/article/202607/SAP SD 返利管理与 Rebate.md`
-- 原始剪藏：`raw/Clippings/SAP SD 返利管理：年采购额500万返3个点——为什么财务说系统算的对不上？Rebate全链路拆解（系列第38篇）.md`
 - 外部来源：[微信公众号原文](https://mp.weixin.qq.com/s/03CGzlPtVd0cKmCOiHQg8A)
 - 语言：中文
 - 适用模块：SD / FI

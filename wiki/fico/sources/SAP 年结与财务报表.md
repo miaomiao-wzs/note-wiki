@@ -11,7 +11,6 @@ tags: [年结, 财务报表]
 ## 来源信息
 - 来源类型：article / Markdown 剪藏
 - 原始位置：`raw/fico/article/202607/SAP年结与财务报表：账结法vs表结法全解析.md`
-- 原始剪藏：`raw/Clippings/SAP年结与财务报表：账结法vs表结法全解析.md`
 - 外部来源：[微信公众号原文](https://mp.weixin.qq.com/s/rNBiBuQ_QMKTNk6T2rLZoA)
 - 语言：中文
 - 适用模块：FI / AA / CO

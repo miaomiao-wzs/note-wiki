@@ -1,8 +1,8 @@
 ---
 module: shared
 kind: index
-updated: 2026-07-23
-source_count: 67
+updated: 2026-07-27
+source_count: 68
 tags: []
 ---
 
@@ -122,6 +122,10 @@ tags: []
 ### 第五批：成本、资产与项目相关
 
 - [[wiki/fico/sources/成本模块操作手册]]
+- [[wiki/fico/sources/SAP 作业分割原理 OKEW]]
+- [[wiki/fico/entities/OKEW]]：作业分割配置对象
+- [[wiki/fico/entities/SCC4]]：客户端更改和传输控制
+- [[wiki/fico/synthesis/生产环境 OKB9 OKEW 临时维护方法]]：生产临时维护边界
 - [[wiki/fico/sources/资产业务操作]]
 - [[wiki/fico/sources/WBS 创建操作手册]]
 - [[wiki/fico/sources/集团内资产买卖原值折旧入账]]

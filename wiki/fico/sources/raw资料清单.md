@@ -1,8 +1,8 @@
 ---
 module: fico
 kind: source
-updated: 2026-07-23
-source_count: 43
+updated: 2026-07-27
+source_count: 44
 tags: []
 ---
 
@@ -12,15 +12,15 @@ tags: []
 
 ## 汇总
 
-> 当前物理文件中另有 1 份内容近重复的 FS15/FS16 Markdown 资料，已在下方登记但暂不重复整理；因此物理有效资料数为 44，按主题去重后的整理口径仍为 43。
+> 当前物理文件中另有 1 份内容近重复的 FS15/FS16 Markdown 资料，已在下方登记但暂不重复整理；因此物理有效资料数为 45，按主题去重后的整理口径为 44。
 
 | 类别 | 数量 | 当前状态 |
 | --- | ---: | --- |
-| Markdown | 16 | 已完成整理 |
+| Markdown | 17 | 已完成整理 |
 | Word 文档 | 19 | 已完成整理 |
 | PDF | 7 | 已使用 `opendataloader-pdf` 解析并完成整理 |
 | Excel | 1 | 已完成事务代码清单整理 |
-| 合计 | 44 | FICO 当前 raw 资料已完成本轮整理 |
+| 合计 | 45 | FICO 当前 raw 资料已完成本轮整理 |
 
 ## 已整理资料
 
@@ -47,11 +47,13 @@ tags: []
 | `raw/fico/article/202607/ZFIR043维护金税发票与形式发票关系.md` | [[wiki/fico/sources/ZFIR043维护金税发票与形式发票关系-图片补充]] |
 | `raw/fico/article/202607/生产工单跨月陆续交货TECO重新打开-物料差异结算问题.md` | [[wiki/fico/sources/生产工单跨月陆续交货TECO重新打开-物料差异结算问题]] | 已补充 6 张操作截图 |
 
-### 第二批 FICO 基础操作手册
+### 2026-07-27 新增 Markdown
 
-| 原始资料 | 对应来源页 |
-| --- | --- |
-| `raw/fico/article/202607/SAP实施项目_FICO_操作手册_会计科目主数据维护.docx` | [[wiki/fico/sources/会计科目主数据维护]] |
+| 原始资料 | 对应来源页 | 说明 |
+| --- | --- | --- |
+| `raw/fico/article/202607/SAP 作业分割原理 OKEW.md` | [[wiki/fico/sources/SAP 作业分割原理 OKEW]] | 原文示例和 OKES/OKEW 配置说法保留待系统核验 |
+
+### 第二批 FICO 基础操作手册
 | `raw/fico/article/202607/SAP实施项目_FICO_操作手册_凭证记账.docx` | [[wiki/fico/sources/凭证记账]] |
 | `raw/fico/article/202607/SAP实施项目_FICO_操作手册_报表查询.docx` | [[wiki/fico/sources/报表查询]] |
 | `raw/fico/article/202607/SAP实施项目_FICO_操作手册_汇率维护.docx` | [[wiki/fico/sources/汇率维护]] |
@@ -126,7 +128,7 @@ tags: []
 
 ## 待处理资料
 
-本轮 FICO raw 资料已整理完成；新增月结、年结和 FI-AA 资料已建立来源页，并保留原始剪藏副本。
+本轮 FICO raw 资料已整理完成；新增月结、年结、FI-AA 和作业分割资料已建立来源页，原始文件均已归档到 `raw/fico/article/202607/`。
 
 说明：`raw/fico/article/202607/~$事务代码清单.xlsx` 是 Office 临时锁文件，不作为有效原始资料整理，也未删除。
 

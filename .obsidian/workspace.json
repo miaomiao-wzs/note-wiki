@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/fico/sources/事务代码清单.md",
+                "file": "raw/fico/article/202607/OKB9 成本要素默认成本中心配置.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "事务代码清单"
+              "title": "OKB9 成本要素默认成本中心配置"
             }
           },
           {
@@ -43,7 +43,17 @@
               "state": {
                 "file": "wiki/fico/concepts/FI 凭证记账.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "FI 凭证记账"
@@ -64,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -250,9 +260,23 @@
   },
   "active": "d4847536e48d912f",
   "lastOpenFiles": [
+    "raw/Clippings/SAP资产折旧调错了怎么办？用ABMA冲销与ABAA补提（附AO78配置）.md",
+    "wiki/fico/synthesis/生产环境 OKB9 OKEW 临时维护方法.md",
+    "wiki/fico/entities/SCC4.md",
+    "raw/fico/article/202607/OKB9 成本要素默认成本中心配置.md",
+    "wiki/fico/entities/OKEW.md",
+    "raw/fico/article/202607/FICO.md",
+    "wiki/fico/concepts/作业分割.md",
+    "wiki/fico/sources/SAP 作业分割原理 OKEW.md",
+    "wiki/fico/sources/SAP 作业分割原理 OKEW.md.tmp.7350.ccc2bd386fed",
+    "raw/fico/article/202607/SAP 作业分割原理 OKEW.md",
+    "raw/Clippings/SAP 作业分割原理  OKEW.md",
+    "wiki/fico/synthesis/F-02 特别总账录入操作手册.md",
+    "LLM WIKI.md",
+    "wiki/fico/synthesis/FICO 原始资料后续整理计划.md",
+    "wiki/fico/sources/事务代码清单.md",
     "wiki/fico/entities/CJ8G.md",
     "wiki/fico/concepts/FI 凭证记账.md",
-    "wiki/fico/sources/事务代码清单.md",
     "raw/Clippings/SAP年结与财务报表：账结法vs表结法全解析.md",
     "wiki/sd/concepts/SD Rebate 与返利应计.md",
     "wiki/sd/concepts/Intrastat.md",
@@ -273,19 +297,6 @@
     "raw/assets/clipping-aa-06.png",
     "raw/assets/clipping-aa-05.png",
     "raw/sd/article/202607/SAP SD 返利管理与 Rebate.md",
-    "raw/sd/article/202607/SAP SD 出口业务全链路与 Intrastat.md",
-    "raw/fico/article/202607/SAP年结与财务报表：账结法vs表结法全解析.md",
-    "raw/fico/article/202607/SAP 月结全景图从精密运转到业务洞察.md",
-    "raw/fico/article/202607/SAP FICO基础笔记：AA模块的事务类型.md",
-    "raw/Clippings/SAP 月结全景图从精密运转到业务洞察.md",
-    "raw/Clippings/SAP SD 出口业务全链路：你的货凭什么过海关？Intrastat申报×出口文档×禁运筛查全拆解（系列第40篇）.md",
-    "raw/Clippings/SAP FICO基础笔记：AA模块的重要概念“事务类型”从配置到应用详解.md",
-    "raw/Clippings/SAP SD 返利管理：年采购额500万返3个点——为什么财务说系统算的对不上？Rebate全链路拆解（系列第38篇）.md",
-    "wiki/fico/synthesis/月结项目结转操作手册.md",
-    "wiki/fico/sources/CKM3取值逻辑.md",
-    "wiki/fico/sources/ABAW 资产减值准备.md",
-    "wiki/fico/sources/MR21和MR22的应用.md",
-    "wiki/fico/sources/CO成本控制概览.md",
     "raw/fico/article/202607/~$FICO.docx",
     "raw/sd/article/202607/SAP FICO物料价格控制_sap s+3 v+2.pdf",
     "raw/sd/article/202607/SAP SD非常见配置点.pdf",
@@ -294,7 +305,6 @@
     "wiki/sd/synthesis",
     "wiki/sd/sources",
     "wiki/sd/entities",
-    "wiki/sd/concepts",
-    "wiki/sd/comparisons"
+    "wiki/sd/concepts"
   ]
 }

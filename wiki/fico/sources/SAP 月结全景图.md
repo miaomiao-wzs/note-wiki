@@ -11,7 +11,6 @@ tags: [月结, 期末处理]
 ## 来源信息
 - 来源类型：article / Markdown 剪藏
 - 原始位置：`raw/fico/article/202607/SAP 月结全景图从精密运转到业务洞察.md`
-- 原始剪藏：`raw/Clippings/SAP 月结全景图从精密运转到业务洞察.md`
 - 外部来源：[微信公众号原文](https://mp.weixin.qq.com/s/ivG6G01kFMQqRNxsXsc24A)
 - 语言：中文
 - 适用模块：MM / FI / AA / CO / COPA

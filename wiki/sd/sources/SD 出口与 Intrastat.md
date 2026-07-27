@@ -11,7 +11,6 @@ tags: [出口, intrastat, 贸易合规]
 ## 来源信息
 - 来源类型：article / Markdown 剪藏
 - 原始位置：`raw/sd/article/202607/SAP SD 出口业务全链路与 Intrastat.md`
-- 原始剪藏：`raw/Clippings/SAP SD 出口业务全链路：你的货凭什么过海关？Intrastat申报×出口文档×禁运筛查全拆解（系列第40篇）.md`
 - 外部来源：[微信公众号原文](https://mp.weixin.qq.com/s/FtC9eTS7jvoxfou2RFsgkA)
 - 语言：中文
 - 适用模块：SD / 外贸 / SAP GTS / FI 税务接口

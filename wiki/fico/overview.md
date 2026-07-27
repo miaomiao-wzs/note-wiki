@@ -1,8 +1,8 @@
 ---
 module: fico
 kind: overview
-updated: 2026-07-23
-source_count: 44
+updated: 2026-07-27
+source_count: 45
 tags: []
 ---
 
@@ -23,6 +23,8 @@ tags: []
 - [[wiki/fico/sources/raw资料清单]]：FICO 原始资料清单
 - [[wiki/fico/synthesis/FICO 原始资料后续整理计划]]：后续整理计划
 - [[wiki/fico/entities/]]：实体页
+- [[wiki/fico/entities/SCC4]]：客户端更改和传输控制
+- [[wiki/fico/entities/OKEW]]：作业分割配置对象
 - [[wiki/fico/concepts/]]：概念页
 - [[wiki/fico/comparisons/]]：对比页
 - [[wiki/fico/sources/]]：来源页
@@ -73,6 +75,8 @@ tags: []
 ### 第五批：成本、资产与项目相关
 
 - [[wiki/fico/sources/成本模块操作手册]]
+- [[wiki/fico/sources/SAP 作业分割原理 OKEW]]
+- [[wiki/fico/synthesis/生产环境 OKB9 OKEW 临时维护方法]]：生产临时维护边界
 - [[wiki/fico/sources/资产业务操作]]
 - [[wiki/fico/sources/WBS 创建操作手册]]
 - [[wiki/fico/sources/集团内资产买卖原值折旧入账]]
@@ -119,6 +123,7 @@ tags: []
 - [[wiki/fico/concepts/财务月结]]
 - [[wiki/fico/concepts/财务年结]]
 - [[wiki/fico/concepts/成本中心]]
+- [[wiki/fico/concepts/作业分割]]
 - [[wiki/fico/concepts/CO 分摊分配]]
 - [[wiki/fico/concepts/固定资产主数据]]
 - [[wiki/fico/concepts/发票校验]]
@@ -136,4 +141,4 @@ tags: []
 
 ## 当前状态
 
-`raw/fico/` 当前 43 个按主题去重的有效原始资料已完成本轮整理。新增月结全景、年结与财务报表、FI-AA 事务类型来源页已纳入；其中 `raw/fico/article/202607/FICO.md` 已重新整理到 [[wiki/fico/sources/FICO 综合资料]]，原文图片统一迁移到 `raw/assets/`。
+`raw/fico/` 当前 44 个按主题去重的有效原始资料已完成本轮整理，物理有效资料为 45 个。新增作业分割来源页和概念页已纳入；新增原始资料已归档到 `raw/fico/article/202607/`，`raw/Clippings/` 中的暂存副本已清理。

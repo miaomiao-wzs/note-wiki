@@ -1,8 +1,8 @@
 ---
 module: shared
 kind: log
-updated: 2026-07-16
-source_count: 59
+updated: 2026-07-27
+source_count: 61
 tags: []
 ---
 
@@ -106,9 +106,22 @@ tags: []
 - 结果：更新 [[wiki/fico/sources/raw资料清单]]、[[wiki/fico/overview]] 和 [[wiki/index]]，将来源路径从 `FICO.docx` 调整为 `FICO.md`
 - 后续：原文中存在高风险操作、debug、默认密码和带 token 的外部链接内容，后续如需沉淀为正式操作手册，应先脱敏并经过测试系统验证
 
-## 2026-07-23 | 整理新增 FICO / SD 剪藏资料 | FICO / SD
-- 主题：新增 FI-AA 事务类型、SAP 月结全景图、SAP 年结与财务报表、SD 出口与 Intrastat、SD Rebate 五篇原始资料
-- 来源：`raw/Clippings/`，归档到 `raw/fico/article/202607/` 和 `raw/sd/article/202607/`
-- 做了什么：保留五篇原始剪藏并复制到模块化 raw；将 14 张无敏感公开图片本地化到 `raw/assets/`；建立五篇来源页；新增出口/Intrastat、SD Rebate 与返利应计概念页；同步 FICO/SD raw 清单、模块首页、全局索引和总清单
-- 结果：新增 [[wiki/fico/sources/FI-AA 事务类型]]、[[wiki/fico/sources/SAP 月结全景图]]、[[wiki/fico/sources/SAP 年结与财务报表]]、[[wiki/sd/sources/SD 出口与 Intrastat]]、[[wiki/sd/sources/SD Rebate]]；AO 映射、国家门槛、税码、底表和自定义配置均保留待核验边界
-- 后续：如需把 FI-AA、出口合规或 Rebate 继续拆成实体/操作手册，应先结合当前系统版本和企业配置验证
+## 2026-07-27 | 整理作业分割资料 | FICO
+- 主题：SAP 作业分割原理、OKES/OKEW 分割结构、权数指标与作业类型成本分割
+- 来源：`raw/Clippings/SAP 作业分割原理  OKEW.md`，归档到 `raw/fico/article/202607/SAP 作业分割原理 OKEW.md`
+- 做了什么：建立 [[wiki/fico/sources/SAP 作业分割原理 OKEW]] 和 [[wiki/fico/concepts/作业分割]]；增量更新成本中心、作业类型、作业价格、实际作业分摊、CO 分摊分配、产品成本结算、KSS2 和 KSII 关联；同步 FICO/全局索引与 raw 清单
+- 结果：沉淀 22 人天、32 小时、8:1 权重的等效数量计算；记录原文 `32/36` 疑似笔误，并将方法 12、`Wt.`、`COKL` 及 KSS2/KSII 关系标记为待系统或官方资料核验；原始剪藏保留
+- 后续：如需形成企业操作步骤，应结合目标 SAP 版本、分割结构和月结方案验证具体配置与执行顺序
+
+## 2026-07-27 | 补充 SCC4 生产维护边界 | FICO
+- 主题：生产环境 OKB9/OKEW 临时维护方法
+- 来源：用户提供的现场处理方法
+- 做了什么：新增 [[wiki/fico/synthesis/生产环境 OKB9 OKEW 临时维护方法]]、[[wiki/fico/entities/SCC4]] 和 [[wiki/fico/entities/OKEW]]；并更新 OKB9 实体、OKB9 来源、成本要素默认成本中心、作业分割、作业分割来源页及 FICO 导航
+- 结果：记录在授权、审批、备份和回退准备完成后，SCC4 可临时从“不允许更改”切换为“不带自动记录的更改”，完成必要 OKB9/OKEW 修改和验证后必须立即恢复为“不允许更改”；明确该方法可能影响正常传输追踪，不是 SAP 标准的无条件推荐流程
+- 后续：按目标 SAP 版本和企业生产变更制度核验 SCC4 选项行为，并保留真实变更单、前后配置值和审计记录
+
+- 主题：迁移已整理剪藏原始文件
+- 来源：`raw/Clippings/`
+- 做了什么：将 4 篇 FICO 剪藏移动到 `raw/fico/article/202607/`，将 2 篇 SD 剪藏移动到 `raw/sd/article/202607/`；删除 `raw/Clippings/.DS_Store`
+- 结果：6 篇 Markdown 剪藏均与既有归档副本逐字一致，`raw/Clippings/` 已无有效文件；同步 FICO、SD 和全局 raw 清单中的暂存目录说明
+- 后续：新增剪藏应先按模块归档并建立来源页，再清理暂存目录

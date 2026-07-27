@@ -11,7 +11,6 @@ tags: [fi-aa, 事务类型]
 ## 来源信息
 - 来源类型：article / Markdown 剪藏
 - 原始位置：`raw/fico/article/202607/SAP FICO基础笔记：AA模块的事务类型.md`
-- 原始剪藏：`raw/Clippings/SAP FICO基础笔记：AA模块的重要概念“事务类型”从配置到应用详解.md`
 - 外部来源：[微信公众号原文](https://mp.weixin.qq.com/s/jTaEdn1zR4eSR93Y8gOxRQ)
 - 语言：中文
 - 适用模块：FICO / FI-AA
