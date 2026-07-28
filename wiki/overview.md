@@ -2,7 +2,7 @@
 module: shared
 kind: overview
 updated: 2026-07-27
-source_count: 61
+source_count: 62
 tags: []
 ---
 
@@ -20,8 +20,8 @@ tags: []
 
 ## 当前 raw 整理状态
 
-- 当前 `raw/` 下有效原始资料按文件口径共 61 个；按知识库去重口径，原 `raw/Clippings/` 中的 6 个剪藏已迁移到模块目录，不重复计入，模块化有效资料共 61 个。
-- FICO 当前 45 个模块内有效原始资料已整理，详见 [[wiki/fico/sources/raw资料清单]]。
+- 当前 `raw/` 下有效原始资料按文件口径共 62 个；按知识库去重口径，原 `raw/Clippings/` 中的 7 个剪藏已迁移到模块目录，不重复计入，模块化有效资料共 62 个。
+- FICO 当前 46 个模块内有效原始资料已整理，详见 [[wiki/fico/sources/raw资料清单]]。
 - ABAP 当前 1 个有效原始资料已整理，详见 [[wiki/abap/sources/ABAP 异常处理基础与核心概念]]。
 - SD 当前 17 个有效原始资料已整理，详见 [[wiki/sd/sources/raw资料清单]]。
 - MM 当前无独立 raw 原始资料，但已从 SD 目录中识别并整理 1 个 MM/FICO 跨模块来源页：[[wiki/mm/sources/SAP-MM费用类采购通过物料组确定科目]]。

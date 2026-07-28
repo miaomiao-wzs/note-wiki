@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/fico/concepts/FI 凭证记账.md",
+                "file": "raw/fico/article/202607/FICO.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -56,7 +56,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FI 凭证记账"
+              "title": "FICO"
             }
           },
           {
@@ -260,6 +260,11 @@
   },
   "active": "d4847536e48d912f",
   "lastOpenFiles": [
+    "raw/fico/article/202607/SAP资产折旧调错了怎么办？用ABMA冲销与ABAA补提（附AO78配置）.md",
+    "wiki/fico/sources/SAP资产折旧错误调整.md",
+    "wiki/fico/sources/FICO 特殊业务与期初边界.md",
+    "wiki/fico/sources/FICO 接口日志与报表逻辑.md",
+    "wiki/fico/concepts/FI 凭证记账.md",
     "raw/Clippings/SAP资产折旧调错了怎么办？用ABMA冲销与ABAA补提（附AO78配置）.md",
     "wiki/fico/synthesis/生产环境 OKB9 OKEW 临时维护方法.md",
     "wiki/fico/entities/SCC4.md",
@@ -276,16 +281,12 @@
     "wiki/fico/synthesis/FICO 原始资料后续整理计划.md",
     "wiki/fico/sources/事务代码清单.md",
     "wiki/fico/entities/CJ8G.md",
-    "wiki/fico/concepts/FI 凭证记账.md",
     "raw/Clippings/SAP年结与财务报表：账结法vs表结法全解析.md",
     "wiki/sd/concepts/SD Rebate 与返利应计.md",
     "wiki/sd/concepts/Intrastat.md",
     "wiki/sd/concepts/出口与贸易合规.md",
     "wiki/fico/sources/SAP 年结与财务报表.md",
     "wiki/fico/sources/SAP 月结全景图.md",
-    "wiki/sd/sources/SD Rebate.md",
-    "wiki/sd/sources/SD 出口与 Intrastat.md",
-    "wiki/fico/sources/FI-AA 事务类型.md",
     "raw/assets/clipping-yearly-04.png",
     "raw/assets/clipping-yearly-03.png",
     "raw/assets/clipping-yearly-02.png",
@@ -296,7 +297,6 @@
     "raw/assets/clipping-monthly-01.png",
     "raw/assets/clipping-aa-06.png",
     "raw/assets/clipping-aa-05.png",
-    "raw/sd/article/202607/SAP SD 返利管理与 Rebate.md",
     "raw/fico/article/202607/~$FICO.docx",
     "raw/sd/article/202607/SAP FICO物料价格控制_sap s+3 v+2.pdf",
     "raw/sd/article/202607/SAP SD非常见配置点.pdf",

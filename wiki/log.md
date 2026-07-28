@@ -125,3 +125,16 @@ tags: []
 - 做了什么：将 4 篇 FICO 剪藏移动到 `raw/fico/article/202607/`，将 2 篇 SD 剪藏移动到 `raw/sd/article/202607/`；删除 `raw/Clippings/.DS_Store`
 - 结果：6 篇 Markdown 剪藏均与既有归档副本逐字一致，`raw/Clippings/` 已无有效文件；同步 FICO、SD 和全局 raw 清单中的暂存目录说明
 - 后续：新增剪藏应先按模块归档并建立来源页，再清理暂存目录
+
+- 主题：`FICO.md` 综合资料新增接口报表与特殊业务专题
+- 来源：`raw/fico/article/202607/FICO.md`
+- 做了什么：更新 [[wiki/fico/sources/FICO 综合资料]]；新增 [[wiki/fico/sources/FICO 接口日志与报表逻辑]]、[[wiki/fico/sources/FICO 特殊业务与期初边界]]；补充物料价格控制、物料分类账差异处理、财务月结、发票校验和 WBS 元素概念页，并同步 FICO 导航与全局索引
+- 结果：沉淀 EAS/EC/OA/SRM 接口日志和自开发报表取值线索；补充农产品税务、免费赠送、运费、统计型 WBS、承兑现金流、CKMLCP/KSII 排查及期初库存/资产边界；敏感信息已脱敏，高风险动作均标记为现场经验/待核验/非无条件推荐
+
+## 2026-07-28 | 整理资产折旧纠错文章 | FICO
+- 主题：SAP 固定资产折旧异常的诊断、调整事务边界与 AO78 配置依赖
+- 来源：`raw/fico/article/202607/SAP资产折旧调错了怎么办？用ABMA冲销与ABAA补提（附AO78配置）.md`
+- 做了什么：将原始剪藏从 `raw/Clippings/` 移动到 `raw/fico/article/202607/`；同步更新 [[wiki/fico/sources/SAP资产折旧错误调整]]、[[wiki/fico/sources/raw资料清单]]、[[wiki/shared/raw资料总清单]]、[[wiki/overview]] 和 [[wiki/fico/overview]] 的来源路径与统计
+- 结果：`raw/Clippings/` 不再保留该文件；FICO 物理有效资料更新为 46 个，按主题去重为 45 个，全局模块化有效资料更新为 62 个
+- 后续：新增 Clippings 整理任务按所属模块、类型和年月完成归档后，再建立或更新 wiki 来源页
+- 后续：以目标系统当前代码、配置、日志和税务政策核验自开发对象、报表取值、特殊业务税务结果及期初导入方案；本轮未新增 raw 文件，FICO 统计仍为 45 个物理资料、44 个主题去重资料

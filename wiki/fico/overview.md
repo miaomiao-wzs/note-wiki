@@ -1,8 +1,8 @@
 ---
 module: fico
 kind: overview
-updated: 2026-07-27
-source_count: 45
+updated: 2026-07-28
+source_count: 46
 tags: []
 ---
 
@@ -78,6 +78,7 @@ tags: []
 - [[wiki/fico/sources/SAP 作业分割原理 OKEW]]
 - [[wiki/fico/synthesis/生产环境 OKB9 OKEW 临时维护方法]]：生产临时维护边界
 - [[wiki/fico/sources/资产业务操作]]
+- [[wiki/fico/sources/SAP资产折旧错误调整]]：资产折旧异常诊断、调整边界与高风险内容治理
 - [[wiki/fico/sources/WBS 创建操作手册]]
 - [[wiki/fico/sources/集团内资产买卖原值折旧入账]]
 
@@ -109,6 +110,10 @@ tags: []
 
 - [[wiki/fico/sources/事务代码清单]]
 
+### 2026-07-28 FICO 综合资料增量专题
+
+- [[wiki/fico/sources/FICO 接口日志与报表逻辑]]：EAS/EC/OA/SRM 接口、日志和自开发报表取值线索；自开发对象待目标系统核验
+- [[wiki/fico/sources/FICO 特殊业务与期初边界]]：农产品税务、免费赠送、运费、统计型 WBS、承兑、期初导入及高风险边界
 ### 跨模块相关资料
 
 - [[wiki/fico/sources/SAP FICO物料价格控制]]：原始 PDF 暂在 `raw/sd/article/202607/`，内容归属 FICO/MM。
@@ -137,8 +142,8 @@ tags: []
 - [[wiki/fico/concepts/财务报表勾稽检查]]
 - [[wiki/fico/concepts/生产工单跨月TECO与物料差异结算]]
 - [[wiki/fico/concepts/物料价格控制]]
-- [[wiki/fico/concepts/FI-AA 事务类型]]
+- [[wiki/fico/sources/FI-AA 事务类型]]
 
 ## 当前状态
 
-`raw/fico/` 当前 44 个按主题去重的有效原始资料已完成本轮整理，物理有效资料为 45 个。新增作业分割来源页和概念页已纳入；新增原始资料已归档到 `raw/fico/article/202607/`，`raw/Clippings/` 中的暂存副本已清理。
+`raw/fico/` 当前 45 个按主题去重的有效原始资料已完成本轮整理，物理有效资料为 46 个。新增作业分割来源页和概念页已纳入；新增原始资料已归档到 `raw/fico/article/202607/`，`raw/Clippings/` 中的暂存副本已清理。

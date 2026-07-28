@@ -2,7 +2,7 @@
 module: fico
 kind: source
 updated: 2026-07-27
-source_count: 44
+source_count: 45
 tags: []
 ---
 
@@ -53,7 +53,12 @@ tags: []
 | --- | --- | --- |
 | `raw/fico/article/202607/SAP 作业分割原理 OKEW.md` | [[wiki/fico/sources/SAP 作业分割原理 OKEW]] | 原文示例和 OKES/OKEW 配置说法保留待系统核验 |
 
-### 第二批 FICO 基础操作手册
+### 2026-07-28 新增 Markdown
+
+| 原始资料 | 对应来源页 | 说明 |
+| --- | --- | --- |
+| `raw/fico/article/202607/SAP资产折旧调错了怎么办？用ABMA冲销与ABAA补提（附AO78配置）.md` | [[wiki/fico/sources/SAP资产折旧错误调整]] | 原文含未经核验的事务配置和高风险伪代码，来源页已分层标注 |
+
 | `raw/fico/article/202607/SAP实施项目_FICO_操作手册_凭证记账.docx` | [[wiki/fico/sources/凭证记账]] |
 | `raw/fico/article/202607/SAP实施项目_FICO_操作手册_报表查询.docx` | [[wiki/fico/sources/报表查询]] |
 | `raw/fico/article/202607/SAP实施项目_FICO_操作手册_汇率维护.docx` | [[wiki/fico/sources/汇率维护]] |

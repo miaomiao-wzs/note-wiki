@@ -1,7 +1,7 @@
 ---
 module: shared
 kind: index
-updated: 2026-07-27
+updated: 2026-07-28
 source_count: 68
 tags: []
 ---
@@ -127,6 +127,7 @@ tags: []
 - [[wiki/fico/entities/SCC4]]：客户端更改和传输控制
 - [[wiki/fico/synthesis/生产环境 OKB9 OKEW 临时维护方法]]：生产临时维护边界
 - [[wiki/fico/sources/资产业务操作]]
+- [[wiki/fico/sources/SAP资产折旧错误调整]]：资产折旧异常诊断与调整边界
 - [[wiki/fico/sources/WBS 创建操作手册]]
 - [[wiki/fico/sources/集团内资产买卖原值折旧入账]]
 
@@ -160,3 +161,8 @@ tags: []
 ### 第九批：Excel 事务代码清单
 
 - [[wiki/fico/sources/事务代码清单]]
+
+### 2026-07-28 FICO 综合资料增量专题
+
+- [[wiki/fico/sources/FICO 接口日志与报表逻辑]]：接口、日志与自开发报表逻辑线索
+- [[wiki/fico/sources/FICO 特殊业务与期初边界]]：特殊业务、期初导入和高风险边界

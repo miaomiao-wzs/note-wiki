@@ -2,7 +2,7 @@
 module: shared
 kind: source
 updated: 2026-07-27
-source_count: 60
+source_count: 61
 tags: []
 ---
 
@@ -29,7 +29,7 @@ tags: []
 
 | 模块 / 目录 | 有效原始资料 | 当前整理状态 | 对应清单 |
 | --- | ---: | --- | --- |
-| `raw/fico/` | 45（按主题去重口径为 44） | 已完成本轮整理；其中 1 份 FS15/FS16 Markdown 资料近重复，暂保留未重复整理 | [[wiki/fico/sources/raw资料清单]] |
+| `raw/fico/` | 46（按主题去重口径为 45） | 已完成本轮整理；其中 1 份 FS15/FS16 Markdown 资料近重复，暂保留未重复整理 | [[wiki/fico/sources/raw资料清单]] |
 | `raw/abap/` | 0 | 当前物理目录无有效原始文件；已有 ABAP 来源页和截图，原始文件缺失待确认 | [[wiki/abap/sources/raw资料清单]] |
 | `raw/sd/` | 17 | 已完成本轮整理 | [[wiki/sd/sources/raw资料清单]] |
 | `raw/mm/` | 0 | 暂无独立 raw 原始资料；有 1 份跨模块 PDF 来源页 | [[wiki/mm/sources/raw资料清单]] |
@@ -37,15 +37,15 @@ tags: []
 | `raw/qm/` | 0 | 暂无有效原始资料 | 暂无 |
 | `raw/assets/` | 0 | 附件目录，不作为来源页整理 | 暂无 |
 | `raw/Clippings/` | 0 | 暂存目录已清理，Markdown 资料全部迁移到对应模块目录 | 暂无 |
-| 合计 | 61（按主题去重）；64 个物理模块文件 | 当前模块化 raw 有效原始资料已完成本轮整理；ABAP 原始文件缺失和 FICO 重复资料均已标注 | 见各模块清单 |
+| 合计 | 62（按主题去重）；65 个物理模块文件 | 当前模块化 raw 有效原始资料已完成本轮整理；ABAP 原始文件缺失和 FICO 重复资料均已标注 | 见各模块清单 |
 
 说明：`raw/Clippings/` 当前无有效资料文件；按知识库口径不计入合计。
 
 ## FICO
 
-`raw/fico/` 当前物理有效原始资料共 45 个，按主题去重口径为 44 个，已整理到 `wiki/fico/`：
+`raw/fico/` 当前物理有效原始资料共 46 个，按主题去重口径为 45 个，已整理到 `wiki/fico/`：
 
-- Markdown：17 个物理文件，其中 1 份 FS15/FS16 资料近重复；按主题去重为 16 个
+- Markdown：18 个物理文件，其中 1 份 FS15/FS16 资料近重复；按主题去重为 17 个
 - Word：19 个
 - PDF：7 个
 - Excel：1 个
@@ -89,4 +89,4 @@ tags: []
 
 ## 当前结论
 
-截至 2026-07-27，`raw/` 下按主题去重的模块化有效原始资料已完成本轮整理；原 `raw/Clippings/` 中的 6 篇剪藏已分别迁移到 FICO/SD 模块目录，附件已本地化到 `raw/assets/`。
+截至 2026-07-28，`raw/` 下按主题去重的模块化有效原始资料已完成本轮整理；原 `raw/Clippings/` 中的 7 篇剪藏已分别迁移到 FICO/SD 模块目录，附件已本地化到 `raw/assets/`。
