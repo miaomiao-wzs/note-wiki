@@ -239,7 +239,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -258,7 +258,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "d4847536e48d912f",
+  "active": "8062de8a632b8539",
   "lastOpenFiles": [
     "raw/fico/article/202607/SAP资产折旧调错了怎么办？用ABMA冲销与ABAA补提（附AO78配置）.md",
     "wiki/fico/sources/SAP资产折旧错误调整.md",
