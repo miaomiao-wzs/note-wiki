@@ -1,8 +1,8 @@
 ---
 module: shared
 kind: index
-updated: 2026-07-28
-source_count: 68
+updated: 2026-08-12
+source_count: 79
 tags: []
 ---
 
@@ -29,13 +29,25 @@ tags: []
 ## 模块入口
 
 - [[wiki/fico/overview]]：FICO 模块首页
+- [[wiki/accounting/overview]]：会计与经济法模块首页
 - [[wiki/abap/overview]]：ABAP 模块首页
 - [[wiki/sd/overview]]：SD 模块首页
 - [[wiki/mm/overview]]：MM 模块首页
 - [[wiki/pp/overview]]：PP 模块首页
-- [[wiki/qm/overview]]：QM 模块首页
+- [[wiki/shared/overview]]：跨模块项目与集成资料首页
+- [[wiki/shared/sources/raw资料清单]]：shared 原始资料清单
+- [[wiki/shared/sources/SAP项目集成测试业务流程与事务码]]：项目集成测试业务流程和事务码索引
 
-## SD 已整理内容
+### 会计与经济法已整理内容
+
+- [[wiki/accounting/sources/raw资料清单]]：会计原始资料清单
+- [[wiki/accounting/sources/企业会计准则基本准则（财政部令第33号）]]：企业会计准则基本准则官方网页摘录与官网复制全文
+- [[wiki/accounting/sources/500强企业成本核算实务]]：成本核算实务参考
+- [[wiki/accounting/sources/2022初级经济法基础官方教材电子版]]：2022 年经济法教育教材
+- [[wiki/accounting/sources/2022初级会计实务官方教材电子版]]：2022 年会计实务教育教材
+- [[wiki/accounting/sources/合并报表实务流程（ERP视角）]]：合并报表流程框架（待准则、制度和系统核验）
+- [[wiki/accounting/sources/合并报表实务流程（ERP视角）]]：合并报表流程框架（待准则、制度和系统核验）
+
 
 - [[wiki/sd/sources/raw资料清单]]：SD 原始资料清单
 - [[wiki/sd/sources/SAP S4HANA销售订单处理（从询价到合同）]]：销售订单处理来源页
@@ -70,6 +82,7 @@ tags: []
 ## ABAP 已整理内容
 
 - [[wiki/abap/sources/ABAP 异常处理基础与核心概念]]：ABAP 异常处理来源页
+- [[wiki/abap/sources/SAP系统架构技术白皮书]]：SAP 三层架构、集成和监控线索（性能与版本待核验）
 - [[wiki/abap/concepts/ABAP 异常处理]]：异常处理核心概念
 - [[wiki/abap/concepts/基于类的异常]]：基于类的异常体系
 
@@ -78,7 +91,10 @@ tags: []
 - [[wiki/fico/sources/raw资料清单]]：FICO 原始资料清单
 - [[wiki/fico/synthesis/FICO 原始资料后续整理计划]]：FICO 后续整理计划
 
-### 第一轮 Markdown
+- [[wiki/fico/sources/资产折旧计算逻辑说明]]：资产折旧测算器逻辑（待系统核验）
+- [[wiki/fico/sources/固定资产折旧开始日期]]：折旧开始日期与跨公司代码转移线索（待核验）
+- [[wiki/fico/sources/资产会计常见日期]]：资产日期术语参考（待核验）
+
 
 - [[wiki/fico/sources/ABAW 资产减值准备]]
 - [[wiki/fico/sources/CO 分摊分配配置说明]]
@@ -97,7 +113,13 @@ tags: []
 - [[wiki/fico/sources/生产工单跨月陆续交货TECO重新打开-物料差异结算问题]]
 - [[wiki/fico/sources/SAP FICO物料价格控制]]
 
-### 第二批 FICO 基础操作手册
+### 2026-08-07 新增 FICO 网络资料
+
+- [[wiki/fico/sources/CKMLCP差异分摊到物料]]：CKMLCP 差异处理框架（待系统核验）
+- [[wiki/fico/sources/IDCNAP应付账款账龄报告]]：IDCNAP 应付账款账龄报表线索（待系统核验）
+- [[wiki/fico/sources/SAP统驭科目类型修改]]：统驭科目类型修改的高风险来源建议
+- [[wiki/fico/sources/SAP ALV报表导出权限控制]]：ALV 导出权限治理线索（待官方和系统核验）
+
 
 - [[wiki/fico/sources/会计科目主数据维护]]
 - [[wiki/fico/sources/凭证记账]]
@@ -127,7 +149,11 @@ tags: []
 - [[wiki/fico/entities/SCC4]]：客户端更改和传输控制
 - [[wiki/fico/synthesis/生产环境 OKB9 OKEW 临时维护方法]]：生产临时维护边界
 - [[wiki/fico/sources/资产业务操作]]
+- [[wiki/fico/sources/固定资产余额与期间查询]]：S_ALR_87011967 与 ZFIR001 的期间查询差异
+- [[wiki/fico/sources/CO88 生产订单结算与会计分录]]：CO88 生产订单结算、科目映射与典型分录
+- [[wiki/fico/sources/CON2 生产订单按实际作业价格重估]]：CON2 实际作业价格重估与月结关系
 - [[wiki/fico/sources/SAP资产折旧错误调整]]：资产折旧异常诊断与调整边界
+- [[wiki/fico/sources/SAP AA模块凭证冲销 AB08]]：资产会计凭证冲销边界与 AB08 核验清单
 - [[wiki/fico/sources/WBS 创建操作手册]]
 - [[wiki/fico/sources/集团内资产买卖原值折旧入账]]
 

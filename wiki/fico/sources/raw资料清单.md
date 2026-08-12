@@ -1,8 +1,8 @@
 ---
 module: fico
 kind: source
-updated: 2026-07-27
-source_count: 45
+updated: 2026-08-12
+source_count: 54
 tags: []
 ---
 
@@ -12,15 +12,15 @@ tags: []
 
 ## 汇总
 
-> 当前物理文件中另有 1 份内容近重复的 FS15/FS16 Markdown 资料，已在下方登记但暂不重复整理；因此物理有效资料数为 45，按主题去重后的整理口径为 44。
+> 当前物理文件中 3 份 202608 固定资产资料已新增来源页；另有 1 份内容近重复的 FS15/FS16 Markdown 资料，已登记但暂不重复整理。因此当前物理有效资料数为 54，按主题去重口径待后续复核。
 
 | 类别 | 数量 | 当前状态 |
 | --- | ---: | --- |
-| Markdown | 17 | 已完成整理 |
+| Markdown | 27 | 已完成整理 |
 | Word 文档 | 19 | 已完成整理 |
 | PDF | 7 | 已使用 `opendataloader-pdf` 解析并完成整理 |
 | Excel | 1 | 已完成事务代码清单整理 |
-| 合计 | 45 | FICO 当前 raw 资料已完成本轮整理 |
+| 合计 | 54 | FICO 当前 raw 资料已完成本轮整理 |
 
 ## 已整理资料
 
@@ -47,7 +47,22 @@ tags: []
 | `raw/fico/article/202607/ZFIR043维护金税发票与形式发票关系.md` | [[wiki/fico/sources/ZFIR043维护金税发票与形式发票关系-图片补充]] |
 | `raw/fico/article/202607/生产工单跨月陆续交货TECO重新打开-物料差异结算问题.md` | [[wiki/fico/sources/生产工单跨月陆续交货TECO重新打开-物料差异结算问题]] | 已补充 6 张操作截图 |
 
-### 2026-07-27 新增 Markdown
+### 2026-08 新增固定资产资料
+
+| 原始资料 | 对应来源页 | 说明 |
+| --- | --- | --- |
+| `raw/fico/article/202608/asset-depreciation-calculation-logic.md` | [[wiki/fico/sources/资产折旧计算逻辑说明]] | 测算器剩余寿命直线法；不代表所有 SAP 折旧码规则 |
+| `raw/fico/article/202608/一个SAP固定资产折旧开始日期的细节.md` | [[wiki/fico/sources/固定资产折旧开始日期]] | `AFAMP`、`T090NP` 和 `ABT1N` 线索；待官方与目标系统核验 |
+| `raw/fico/article/202608/资产会计中常见日期(资本化日期、资产价值日等)解析-CSDN博客.md` | [[wiki/fico/sources/资产会计常见日期]] | 资产日期术语参考；来源为网络文章，状态 unknown |
+
+
+| 原始资料 | 对应来源页 | 说明 |
+| --- | --- | --- |
+| `raw/fico/article/202608/CKMLCP：把差异分摊到每一颗物料.md` | [[wiki/fico/sources/CKMLCP差异分摊到物料]] | CKMLCP 四步框架；版本、配置和期间行为待核验 |
+| `raw/fico/article/202608/SAP FICO深度总结：IDCNAP应付账款账龄报告（中国）详细分析.md` | [[wiki/fico/sources/IDCNAP应付账款账龄报告]] | 中国本地化应付账款账龄报表线索；字段和激活条件待核验 |
+| `raw/fico/article/202608/SAP 如何修改统驭科目类型.md` | [[wiki/fico/sources/SAP统驭科目类型修改]] | 高风险主数据更正观点；不作为无条件生产方案 |
+| `raw/fico/article/202608/限制用户在 SAP 中导出ALV报表数据.md` | [[wiki/fico/sources/SAP ALV报表导出权限控制]] | `S_GUI`/KBA 线索；授权效果待系统与官方核验 |
+
 
 | 原始资料 | 对应来源页 | 说明 |
 | --- | --- | --- |
@@ -58,8 +73,7 @@ tags: []
 | 原始资料 | 对应来源页 | 说明 |
 | --- | --- | --- |
 | `raw/fico/article/202607/SAP资产折旧调错了怎么办？用ABMA冲销与ABAA补提（附AO78配置）.md` | [[wiki/fico/sources/SAP资产折旧错误调整]] | 原文含未经核验的事务配置和高风险伪代码，来源页已分层标注 |
-
-| `raw/fico/article/202607/SAP实施项目_FICO_操作手册_凭证记账.docx` | [[wiki/fico/sources/凭证记账]] |
+| `raw/fico/article/202607/SAP FICO基础笔记：AA模块凭证冲销操作详解-AB08.md` | [[wiki/fico/sources/SAP AA模块凭证冲销 AB08]] | 原文对 AB08、FB08、跨期冲销和集成凭证存在待核验的绝对化描述 || `raw/fico/article/202607/SAP实施项目_FICO_操作手册_凭证记账.docx` | [[wiki/fico/sources/凭证记账]] |
 | `raw/fico/article/202607/SAP实施项目_FICO_操作手册_报表查询.docx` | [[wiki/fico/sources/报表查询]] |
 | `raw/fico/article/202607/SAP实施项目_FICO_操作手册_汇率维护.docx` | [[wiki/fico/sources/汇率维护]] |
 

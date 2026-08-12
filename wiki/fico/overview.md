@@ -1,8 +1,8 @@
 ---
 module: fico
 kind: overview
-updated: 2026-07-28
-source_count: 46
+updated: 2026-08-12
+source_count: 54
 tags: []
 ---
 
@@ -78,7 +78,11 @@ tags: []
 - [[wiki/fico/sources/SAP 作业分割原理 OKEW]]
 - [[wiki/fico/synthesis/生产环境 OKB9 OKEW 临时维护方法]]：生产临时维护边界
 - [[wiki/fico/sources/资产业务操作]]
+- [[wiki/fico/sources/固定资产余额与期间查询]]：S_ALR_87011967 与 ZFIR001 的期间查询差异
+- [[wiki/fico/sources/CO88 生产订单结算与会计分录]]：CO88 生产订单结算、科目映射与典型分录
+- [[wiki/fico/sources/CON2 生产订单按实际作业价格重估]]：CON2 实际作业价格重估与月结关系
 - [[wiki/fico/sources/SAP资产折旧错误调整]]：资产折旧异常诊断、调整边界与高风险内容治理
+- [[wiki/fico/sources/SAP AA模块凭证冲销 AB08]]：资产会计凭证冲销边界与 AB08 核验清单
 - [[wiki/fico/sources/WBS 创建操作手册]]
 - [[wiki/fico/sources/集团内资产买卖原值折旧入账]]
 
@@ -114,7 +118,18 @@ tags: []
 
 - [[wiki/fico/sources/FICO 接口日志与报表逻辑]]：EAS/EC/OA/SRM 接口、日志和自开发报表取值线索；自开发对象待目标系统核验
 - [[wiki/fico/sources/FICO 特殊业务与期初边界]]：农产品税务、免费赠送、运费、统计型 WBS、承兑、期初导入及高风险边界
-### 跨模块相关资料
+### 2026-08 新增固定资产资料
+
+- [[wiki/fico/sources/资产折旧计算逻辑说明]]：通用测算器的剩余寿命直线法与累计折旧追平逻辑
+- [[wiki/fico/sources/固定资产折旧开始日期]]：资产折旧开始日期、`AFAMP`/`T090NP` 与 `ABT1N` 线索（待核验）
+- [[wiki/fico/sources/资产会计常见日期]]：资本化日期、资产价值日、折旧开始日期和不活动日期（待核验）
+
+
+- [[wiki/fico/sources/CKMLCP差异分摊到物料]]：物料分类账差异处理框架；期间、配置和分摊结果待核验
+- [[wiki/fico/sources/IDCNAP应付账款账龄报告]]：中国本地化应付账款账龄报表线索；字段和激活条件待核验
+- [[wiki/fico/sources/SAP统驭科目类型修改]]：统驭科目类型错误处理的高风险来源建议
+- [[wiki/fico/sources/SAP ALV报表导出权限控制]]：ALV 导出权限治理线索；`S_GUI`-`EXPORT` 效果待核验
+
 
 - [[wiki/fico/sources/SAP FICO物料价格控制]]：原始 PDF 暂在 `raw/sd/article/202607/`，内容归属 FICO/MM。
 
@@ -146,4 +161,4 @@ tags: []
 
 ## 当前状态
 
-`raw/fico/` 当前 45 个按主题去重的有效原始资料已完成本轮整理，物理有效资料为 46 个。新增作业分割来源页和概念页已纳入；新增原始资料已归档到 `raw/fico/article/202607/`，`raw/Clippings/` 中的暂存副本已清理。
+`raw/fico/` 当前 54 个有效原始资料已完成本轮整理，包含 3 篇 202608 固定资产资料；物理文件中原有 FS15/FS16 近重复资料仍保留。

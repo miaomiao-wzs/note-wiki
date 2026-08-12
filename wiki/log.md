@@ -1,14 +1,91 @@
 ---
 module: shared
 kind: log
-updated: 2026-07-27
-source_count: 61
+updated: 2026-08-12
+source_count: 68
 tags: []
 ---
 
-# 整理记录
+## 2026-08-12 | 维护教材来源页 | accounting
+- 主题：为大体积历史教材后续从 raw 移除做准备，并清理全局索引重复登记
+- 来源：`raw/accounting/article/202607/2022初级会计实务官方教材电子版.pdf`
+- 做了什么：删除 `wiki/index.md` 中该教材来源页的重复链接；保留唯一入口和完整来源页；在来源页增加 `raw_availability: present-planned-removal`，明确当前 PDF 仍存在、后续移除后保留历史路径、页数、SHA-256 和已整理知识内容；将解析目录标记为历史临时产物
+- 结果：PDF 当前 SHA-256 仍为 `e44d258cb058505181b8ec1c020f6a6050df59aa24cbde6f1376b8a5a31568c9`；当前 accounting 7 个、全局 80 个物理 raw 文件统计暂不变化
+- 后续：用户实际删除 PDF 后，将来源页生命周期改为 `removed`，重新扫描并同步 accounting 清单、模块总览、全局 raw 总清单、知识库总览和日志；预计 accounting 7→6、全局 80→79（以实际扫描为准）
 
-## 记录方式
+
+- 主题：为大体积历史教材后续从 raw 移除做准备，并清理全局索引重复登记
+- 来源：`raw/accounting/article/202607/2022初级会计实务官方教材电子版.pdf`
+- 做了什么：删除 `wiki/index.md` 中该教材来源页的重复链接；保留唯一入口和完整来源页；在来源页增加 `raw_availability: present-planned-removal`，明确当前 PDF 仍存在、后续移除后保留历史路径、页数、SHA-256 和已整理知识内容；将解析目录标记为历史临时产物
+- 结果：PDF 当前 SHA-256 仍为 `e44d258cb058505181b8ec1c020f6a6050df59aa24cbde6f1376b8a5a31568c9`；当前 accounting 7 个、全局 80 个物理 raw 文件统计暂不变化
+- 后续：用户实际删除 PDF 后，将来源页生命周期改为 `removed`，重新扫描并同步 accounting 清单、模块总览、全局 raw 总清单、知识库总览和日志；预计 accounting 7→6、全局 80→79（以实际扫描为准）
+
+
+- 主题：整理用户更新后的 raw 资料并纳入知识库
+- 来源：`raw/Clippings/` 中 3 篇固定资产 Markdown、1 篇 SAP 项目集成测试 Markdown及其 18 张流程图
+- 做了什么：将 3 篇固定资产资料归档到 `raw/fico/article/202608/`，建立资产折旧计算逻辑、固定资产折旧开始日期和资产会计常见日期 3 个来源页；将项目集成测试文档归档到 `raw/shared/article/202608/`，建立 shared 来源页和清单，18 张流程图归档到 `raw/assets/` 并修正原文本地图片路径
+- 结果：当前有效 raw 物理文件为 80 个：FICO 54、ABAP 1、accounting 7、SD 17、shared 1；`raw/Clippings/` 已无有效资料；流程图作为附件不计入 raw 文件统计
+- 原始资料边界：固定资产网络文章、测算器公式、AFAMP/T090NP/ABT1N 线索及项目自开发事务码和外部系统接口均标记为待官方/目标系统核验；未将测试脚本升级为正式操作规范
+- 后续：核对固定资产日期和折旧逻辑的目标系统凭证；统一项目测试场景编号、补齐空白连通测试明细，并补充接口报文和责任系统证据
+
+- 主题：核对全库 raw 统计、当前入口、wiki-link 和新增剪藏来源页之间的一致性
+- 做了什么：按有效扩展名和排除规则重新扫描 `raw/`；确认物理文件 76、SHA-256 去重 76，FICO 51、ABAP 1、accounting 7、SD 17；将 ABAP 当前 raw 口径从误写的 2 修正为 1，并保留缺失的旧 ABAP 异常处理原始 Markdown 来源页为待恢复状态
+- 链接修复：将 [[wiki/fico/sources/报表查询]] 中不存在的 `现金流量表原因代码` 概念链接改为明确的待建主题说明；为 CKMLCP、IDCNAP、统驭科目和 ALV 来源页补充可确认的实体/概念/来源页关联，并为 CKMLCP、IDCNAP、统驭科目实体/概念页补回新来源反向链接
+- 冲突边界：CKMLCP、IDCNAP、统驭科目类型、ALV 导出权限、ABAP 架构和 accounting 合并报表中的网络文章观点仍保持待官方/目标系统核验；未修改 raw 原文、历史日志统计或模板占位符链接
+- 结果：当前统计与模块入口统一；真实内容断链已处理，模板占位符和历史示例资源未误删。- 主题：将 7 篇网络 Markdown 剪藏纳入模块化知识库
+- 来源：`raw/Clippings/` 中 CKMLCP、IDCNAP、统驭科目类型、ALV 导出权限、SAP 系统架构白皮书、财务部内部工作体系、合并报表 ERP 视角资料
+- 做了什么：按 `created`/当前批次统一归档到 `raw/fico/article/202608/`（4 篇）、`raw/abap/article/202608/`（1 篇）和 `raw/accounting/article/202608/`（2 篇）；建立 7 个来源页；更新各模块 raw 清单、模块总览、全局索引、总览和本日志
+- 结果：7 个原始文件迁移前后 SHA-256 保持一致；`raw/Clippings/` 无有效 `.md/.docx/.pdf/.xlsx`；当前有效 raw 物理文件为 FICO 51、ABAP 1、accounting 7、SD 17，全局 76 个（按当前扫描；SHA-256 去重仍为 76）。来源页均保留原始 URL，外部图片未批量下载
+- 原始资料边界：网络文章的事务码、字段、配置、版本、性能阈值和操作观点均按 `status: unknown`/待系统或官方核验处理；accounting 两篇仅作教育/实务参考，不替代法规、准则或企业制度；图片型财务部资料只记录可见摘要，图表细节待核验
+- 后续：在目标 SAP/ERP 版本和企业制度中核对 CKMLCP、IDCNAP、统驭科目、ALV 授权、架构性能指标及合并报表政策；若需本地化图片，另行核验版权并下载至 `raw/assets/`
+
+- 主题：补充《企业会计准则——基本准则》官网复制全文
+- 来源：`raw/accounting/article/202607/企业会计准则——基本准则.md`；既有网页摘录 `raw/accounting/web/202607/企业会计准则基本准则（财政部令第33号）.md`
+- 做了什么：核验新增全文覆盖财政部令第33号第一条至第五十条；记录官网复制全文 SHA-256 `a600c5985e3001e3d0b987cca57135085f73eb63b96ad5f81a835bddc22856a` 和网页摘录 SHA-256 `d4d0eff3fc801bc538fc9b3839f19588a99689b6efffae39a891756659d7abda`；去除网页导航/HTML 噪声并统一排版后确认正文一致；在同一来源页合并两种 raw 证据形态
+- 结果：更新 [[wiki/accounting/sources/企业会计准则基本准则（财政部令第33号）]]、accounting raw 清单、accounting 总览、[[wiki/index]]、[[wiki/overview]] 和 [[wiki/shared/raw资料总清单]]；accounting 物理文件更新为 5、规范/主题去重为 4，全局物理文件更新为 69、主题去重仍为 67
+- 原始资料边界：两个 raw 文件均保留且未改写；SHA-256 不同仅反映网页抓取噪声和排版形态差异，不代表不同规范；未创建重复来源页
+- 后续：如需确认后续修订或现行适用性，继续以财政部官方发布信息核验，不以本地复制文本替代现行版本判断
+
+## 2026-07-30 | 新增来源页 | accounting
+- 主题：新增会计基础 PDF 资料整理
+- 来源：`raw/accounting/article/202607/500强企业成本核算实务.pdf`、`2022初级经济法基础官方教材电子版.pdf`、`2022初级会计实务官方教材电子版.pdf`
+- 做了什么：使用 `opendataloader-pdf` 解析 3 份 PDF；记录 550 页成本核算实务、433 页经济法教材和 335 页会计实务教材的工具识别结果、SHA-256、原始路径和解析路径；按 `accounting-practice`/`economic-law` 建立 3 篇来源页
+- 结果：新增 [[wiki/accounting/sources/500强企业成本核算实务]]、[[wiki/accounting/sources/2022初级经济法基础官方教材电子版]]、[[wiki/accounting/sources/2022初级会计实务官方教材电子版]]；更新 accounting 清单、模块首页、全局索引、总览和 raw 总清单
+- 版本与风险：新增 PDF 均标记 `status: unknown`；教材和实务资料仅作教育/实务参考，不能替代现行法律、企业会计准则或 SAP/FICO 配置；解析文本存在 OCR、字体、列表或推广水印问题，版权与授权待核验
+- 后续：核验三份 PDF 的版权页、ISBN、出版社和授权范围；涉及现行法律、税率、会计准则或企业制度时，回到官方来源逐项确认
+
+## 2026-07-30 | 新增来源页 | FICO
+- 主题：固定资产余额与期间查询
+- 来源：用户对 `S_ALR_87011967` 与 `ZFIR001` 实际查询结果的确认
+- 做了什么：整理资产余额清单与固定资产明细表的定位差异，记录 `S_ALR_87011967` 查询截止期间资产原值、折旧、累计折旧和净值的适用场景；补充 5 月末与 6 月末对比方法、总账核对要点，并记录 `ZFIR001` 日期筛选当前未改变结果的系统观察
+- 结果：新增 [[wiki/fico/sources/固定资产余额与期间查询]]、[[wiki/fico/entities/S_ALR_87011967]]；更新 [[wiki/fico/entities/ZFIR001]]、[[wiki/fico/sources/资产业务操作]]、FICO 与全局索引
+- 后续：如需修复 `ZFIR001`，应由开发人员核查日期字段、资产价值期间和历史数据取数逻辑
+
+- 做了什么：整理资产余额清单与固定资产明细表的定位差异，记录 `S_ALR_87011967` 查询截止期间资产原值、折旧、累计折旧和净值的适用场景；补充 5 月末与 6 月末对比方法、总账核对要点，并记录 `ZFIR001` 日期筛选当前未改变结果的系统观察
+- 结果：新增 [[wiki/fico/sources/固定资产余额与期间查询]]、[[wiki/fico/entities/S_ALR_87011967]]；更新 [[wiki/fico/entities/ZFIR001]]、[[wiki/fico/sources/资产业务操作]]、FICO 与全局索引
+- 后续：如需修复 `ZFIR001`，应由开发人员核查日期字段、资产价值期间和历史数据取数逻辑
+
+## 2026-07-30 | 新增模块 | accounting
+- 主题：会计与经济法知识模块初始化
+- 来源：用户确定的新模块方案；中国政府网官方《企业会计准则——基本准则》页面
+- 做了什么：建立 `raw/accounting/` 与 `wiki/accounting/` 同构目录；以 `subject: economic-law|accounting-practice` 区分主题；建立会计模块首页、原始资料清单和 FICO/accounting 归属映射；采集并归档 1 份官方会计准则网页摘录，记录财政部令第33号、发布/生效日期、官方 URL 和 SHA-256
+- 结果：新增 [[wiki/accounting/overview]]、[[wiki/accounting/sources/企业会计准则基本准则（财政部令第33号）]]、[[wiki/accounting/entities/企业会计准则——基本准则]]、[[wiki/accounting/concepts/企业会计准则基本原则]]、[[wiki/accounting/sources/raw资料清单]]、[[wiki/accounting/synthesis/FICO 与 accounting 归属映射]]；更新全局索引、总览和 raw 总清单
+- 后续：继续按官方白名单核验《中华人民共和国会计法》《企业财务会计报告条例》《小企业会计准则》；官方版本无法确认时标记 `unknown`，不以商业转载替代
+
+
+- 来源：用户查询整理；[[raw/fico/article/202607/FICO.md]]
+- 做了什么：整理 `CON2` 的作用、实际作业价格重估计算逻辑、生产成本月结位置、与 `KSS2`/`KSII`/`KKS1`/`CO88` 的关系、检查方法和异常排查方向；明确 `CON2` 不等同于生产订单最终结算
+- 结果：新增 [[wiki/fico/sources/CON2 生产订单按实际作业价格重估]]，并同步更新 FICO 与全局索引
+- 后续：如需形成企业正式操作手册，应补充目标系统的实际作业价格结果、重估凭证样例和配置核验记录
+
+## 2026-07-30 | 新增来源页 | FICO
+- 主题：CO88 生产订单结算与会计分录
+- 来源：用户确认的生产订单结算科目映射；[[raw/fico/article/202607/FICO.md]]
+- 做了什么：整理 `CO88` 的作用、成本月结位置、产成品/在产品/生产差异结算逻辑、当前企业科目映射、典型分录示例、关联事务码和凭证核对方法；明确典型方向不替代实际系统凭证
+- 结果：新增 [[wiki/fico/sources/CO88 生产订单结算与会计分录]]，并同步更新 FICO 与全局索引
+- 后续：如需形成企业正式操作手册，应补充目标系统结算变式、自动科目配置、真实 CO/FI 凭证样例和测试证据
+
+
 
 - 单条记录建议使用 [[wiki/templates/log-entry]] 的格式。
 - 标题使用 `## 日期 | 动作 | 模块`。
@@ -131,7 +208,13 @@ tags: []
 - 做了什么：更新 [[wiki/fico/sources/FICO 综合资料]]；新增 [[wiki/fico/sources/FICO 接口日志与报表逻辑]]、[[wiki/fico/sources/FICO 特殊业务与期初边界]]；补充物料价格控制、物料分类账差异处理、财务月结、发票校验和 WBS 元素概念页，并同步 FICO 导航与全局索引
 - 结果：沉淀 EAS/EC/OA/SRM 接口日志和自开发报表取值线索；补充农产品税务、免费赠送、运费、统计型 WBS、承兑现金流、CKMLCP/KSII 排查及期初库存/资产边界；敏感信息已脱敏，高风险动作均标记为现场经验/待核验/非无条件推荐
 
-## 2026-07-28 | 整理资产折旧纠错文章 | FICO
+## 2026-07-28 | 整理 AB08 资产凭证冲销文章 | FICO
+- 主题：FI-AA 资产会计凭证冲销边界与 `AB08` 核验清单
+- 来源：`raw/fico/article/202607/SAP FICO基础笔记：AA模块凭证冲销操作详解-AB08.md`
+- 做了什么：将原始剪藏从 `raw/Clippings/` 移动到 `raw/fico/article/202607/`；新增 [[wiki/fico/sources/SAP AA模块凭证冲销 AB08]]；更新 [[wiki/fico/entities/AB08]]、[[wiki/fico/concepts/凭证冲销]]、[[wiki/fico/sources/raw资料清单]]、[[wiki/shared/raw资料总清单]]、[[wiki/overview]]、[[wiki/fico/overview]] 和 [[wiki/index]]
+- 结果：保留 `AB08` 与 `FB08` 的业务来源边界，明确采购/销售/物料集成凭证应回到原业务模块处理；将冲销原因、跨期跨年度、负值记账、批量处理、折旧先后顺序和 `ABMW` 标记为系统/配置待核验；排除删除资产记录、直接改底表和固定原因码结论
+- 后续：如需形成企业级冲销手册，应补充目标系统版本、凭证样例、配置截图、审批矩阵、测试证据和回退方案
+
 - 主题：SAP 固定资产折旧异常的诊断、调整事务边界与 AO78 配置依赖
 - 来源：`raw/fico/article/202607/SAP资产折旧调错了怎么办？用ABMA冲销与ABAA补提（附AO78配置）.md`
 - 做了什么：将原始剪藏从 `raw/Clippings/` 移动到 `raw/fico/article/202607/`；同步更新 [[wiki/fico/sources/SAP资产折旧错误调整]]、[[wiki/fico/sources/raw资料清单]]、[[wiki/shared/raw资料总清单]]、[[wiki/overview]] 和 [[wiki/fico/overview]] 的来源路径与统计

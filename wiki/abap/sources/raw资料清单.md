@@ -1,7 +1,7 @@
 ---
 module: abap
 kind: source
-updated: 2026-07-23
+updated: 2026-08-07
 source_count: 1
 tags: []
 ---
@@ -23,8 +23,8 @@ tags: []
 
 | 原始资料 | 对应来源页 |
 | --- | --- |
-| `raw/abap/article/202607/ABAP 异常处理基础与核心概念.md` | [[wiki/abap/sources/ABAP 异常处理基础与核心概念]] |
+| `raw/abap/article/202608/SAP-ABAP：SAP系统架构技术白皮书.md` | [[wiki/abap/sources/SAP系统架构技术白皮书]] | 三层架构、集成和监控线索；性能阈值与版本路线 `status: unknown` |
 
 ## 当前状态
 
-当前 `raw/abap/` 物理目录没有有效原始文件；ABAP 异常处理来源页和截图仍保留在 wiki 与 `raw/assets/` 中，但对应原始 Markdown 文件缺失，是否恢复需单独确认。本页不把缺失文件计入 raw 资料统计。
+当前 `raw/abap/` 有 1 个有效 Markdown 原始资料，即 202608 SAP 系统架构白皮书；既有 ABAP 异常处理来源页仍保留，但其对应原始 Markdown 当前缺失，未计入 raw 统计。来源中的性能数字、版本判断和实现路线仍需官方/目标系统核验。

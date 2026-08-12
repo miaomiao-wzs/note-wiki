@@ -23,4 +23,5 @@ tags: []
 - [[wiki/fico/concepts/成本要素默认成本中心]]
 
 ## 参考来源
+- [[wiki/fico/sources/CKMLCP差异分摊到物料]]
 - [[wiki/fico/sources/OKB9 成本要素默认成本中心配置]]

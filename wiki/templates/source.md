@@ -85,6 +85,26 @@ tags: []
 - `ABAP 内表循环优化.md`
 - `应收账款清账规则.md`
 
+## 会计法规/准则来源页扩展字段
+
+当 `module: accounting` 时，建议在最小 frontmatter 之外记录版本与适用性信息：
+
+```yaml
+subject: economic-law # 或 accounting-practice
+authority: 发布机关
+document_no: 文号
+version: 版本或修订说明
+issued: YYYY-MM-DD
+effective_from: YYYY-MM-DD
+effective_to: null
+status: effective # effective / superseded / unknown
+retrieved: YYYY-MM-DD
+source_url: https://官方来源
+```
+
+- `status` 无法从官方页面确认时使用 `unknown`，不得以商业转载推断现行有效。
+- 原始资料仍放在 `raw/accounting/`，上述字段记录在 wiki 来源页和对应清单中。
+
 ## 使用原则
 
 - `raw/` 不强制套这个模板。

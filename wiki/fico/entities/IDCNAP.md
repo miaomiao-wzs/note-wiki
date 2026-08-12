@@ -25,5 +25,6 @@ tags: []
 - [[wiki/fico/concepts/应付账款]]
 
 ## 参考来源
+- [[wiki/fico/sources/IDCNAP应付账款账龄报告]]
 - [[wiki/fico/sources/发票校验]]
 
