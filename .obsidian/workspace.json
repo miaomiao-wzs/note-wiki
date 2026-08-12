@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/fico/article/202607/FICO.md",
+                "file": "wiki/accounting/synthesis/FICO 与 accounting 归属映射.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -56,21 +56,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FICO"
-            }
-          },
-          {
-            "id": "6cea2c1edcb69761",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLM WIKI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LLM WIKI"
+              "title": "FICO 与 accounting 归属映射"
             }
           }
         ],
@@ -94,7 +80,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -131,7 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 442.5
+    "width": 505.125
   },
   "right": {
     "id": "05a38a73cef339e8",
@@ -239,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -258,53 +246,53 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "8062de8a632b8539",
+  "active": "d4847536e48d912f",
   "lastOpenFiles": [
-    "raw/fico/article/202607/SAP资产折旧调错了怎么办？用ABMA冲销与ABAA补提（附AO78配置）.md",
-    "wiki/fico/sources/SAP资产折旧错误调整.md",
-    "wiki/fico/sources/FICO 特殊业务与期初边界.md",
-    "wiki/fico/sources/FICO 接口日志与报表逻辑.md",
-    "wiki/fico/concepts/FI 凭证记账.md",
-    "raw/Clippings/SAP资产折旧调错了怎么办？用ABMA冲销与ABAA补提（附AO78配置）.md",
-    "wiki/fico/synthesis/生产环境 OKB9 OKEW 临时维护方法.md",
-    "wiki/fico/entities/SCC4.md",
-    "raw/fico/article/202607/OKB9 成本要素默认成本中心配置.md",
-    "wiki/fico/entities/OKEW.md",
+    "wiki/accounting/sources/500强企业成本核算实务.md",
+    "wiki/accounting/sources/2022初级会计实务官方教材电子版.md",
     "raw/fico/article/202607/FICO.md",
-    "wiki/fico/concepts/作业分割.md",
-    "wiki/fico/sources/SAP 作业分割原理 OKEW.md",
-    "wiki/fico/sources/SAP 作业分割原理 OKEW.md.tmp.7350.ccc2bd386fed",
-    "raw/fico/article/202607/SAP 作业分割原理 OKEW.md",
-    "raw/Clippings/SAP 作业分割原理  OKEW.md",
-    "wiki/fico/synthesis/F-02 特别总账录入操作手册.md",
-    "LLM WIKI.md",
-    "wiki/fico/synthesis/FICO 原始资料后续整理计划.md",
-    "wiki/fico/sources/事务代码清单.md",
-    "wiki/fico/entities/CJ8G.md",
-    "raw/Clippings/SAP年结与财务报表：账结法vs表结法全解析.md",
-    "wiki/sd/concepts/SD Rebate 与返利应计.md",
-    "wiki/sd/concepts/Intrastat.md",
-    "wiki/sd/concepts/出口与贸易合规.md",
-    "wiki/fico/sources/SAP 年结与财务报表.md",
-    "wiki/fico/sources/SAP 月结全景图.md",
-    "raw/assets/clipping-yearly-04.png",
-    "raw/assets/clipping-yearly-03.png",
-    "raw/assets/clipping-yearly-02.png",
-    "raw/assets/clipping-yearly-01.png",
-    "raw/assets/clipping-monthly-04.png",
-    "raw/assets/clipping-monthly-03.png",
-    "raw/assets/clipping-monthly-02.png",
-    "raw/assets/clipping-monthly-01.png",
-    "raw/assets/clipping-aa-06.png",
-    "raw/assets/clipping-aa-05.png",
-    "raw/fico/article/202607/~$FICO.docx",
-    "raw/sd/article/202607/SAP FICO物料价格控制_sap s+3 v+2.pdf",
-    "raw/sd/article/202607/SAP SD非常见配置点.pdf",
-    "raw/sd/article/202607/SAP-MM费用类采购通过物料组确定科目_sap费用化采购-CSDN博客.pdf",
-    "raw/fico/article/202607/~$IR043维护金税发票与形式发票关系.docx",
-    "wiki/sd/synthesis",
-    "wiki/sd/sources",
-    "wiki/sd/entities",
-    "wiki/sd/concepts"
+    "raw/Clippings/SAP项目集成测试业务流程与事务码.md",
+    "wiki/shared/overview.md",
+    "wiki/shared/sources/raw资料清单.md",
+    "wiki/shared/sources/SAP项目集成测试业务流程与事务码.md",
+    "wiki/fico/sources/资产会计常见日期.md",
+    "wiki/fico/sources/固定资产折旧开始日期.md",
+    "wiki/fico/sources/资产折旧计算逻辑说明.md",
+    "raw/assets/BP-10-财务成本结转流程.png",
+    "raw/assets/BP-09-标准成本估算流程.png",
+    "raw/assets/BP-08-财务日常作业流程.png",
+    "raw/assets/BP-07-外部系统集成流程.png",
+    "raw/assets/BP-06-设备全生命周期流程.png",
+    "raw/assets/BP-05-财务月结流程.png",
+    "raw/assets/BP-04B-销售到收款详细流程.png",
+    "raw/assets/BP-04A-采购与销售退货流程.png",
+    "raw/assets/BP-04-销售到收款O2C流程.png",
+    "raw/assets/BP-03B-生产执行与质量管理详细流程.png",
+    "raw/fico/article/202608/资产会计中常见日期(资本化日期、资产价值日等)解析-CSDN博客.md",
+    "raw/fico/article/202608/一个SAP固定资产折旧开始日期的细节.md",
+    "raw/fico/article/202608/asset-depreciation-calculation-logic.md",
+    "wiki/shared/sources",
+    "raw/shared/article/202608/SAP项目集成测试业务流程与事务码.md",
+    "raw/shared/article/202608",
+    "raw/shared/article",
+    "raw/shared",
+    "raw/Clippings/asset-depreciation-calculation-logic.md",
+    "raw/Clippings/资产会计中常见日期(资本化日期、资产价值日等)解析-CSDN博客.md",
+    "raw/Clippings/一个SAP固定资产折旧开始日期的细节.md",
+    "wiki/fico/sources/CO88 生产订单结算与会计分录.md",
+    "raw/Clippings/CKMLCP：把差异分摊到每一颗物料.md",
+    "raw/Clippings/~$SAP项目集成测试脚本.v1.0.xlsx",
+    "raw/Clippings/SAP项目集成测试脚本.v1.0.xlsx",
+    "raw/Clippings/济民可信SAP ERP项目第一轮集成测试脚本_艾施特.v1.0.xlsx",
+    "wiki/accounting/sources/合并报表实务流程（ERP视角）.md",
+    "accounting/sources/合并报表实务流程（ERP视角）.md",
+    "accounting/sources",
+    "accounting",
+    "wiki/accounting/sources/财务部内部工作体系.md",
+    "wiki/abap/sources/SAP系统架构技术白皮书.md",
+    "wiki/fico/sources/SAP ALV报表导出权限控制.md",
+    "wiki/fico/sources/SAP统驭科目类型修改.md",
+    "wiki/fico/sources/IDCNAP应付账款账龄报告.md",
+    "raw/accounting/article/202608"
   ]
 }

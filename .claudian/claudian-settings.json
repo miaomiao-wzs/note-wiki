@@ -6,7 +6,7 @@
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
-  "titleGenerationModel": "claude-code/gpt-5.6-luna",
+  "titleGenerationModel": "opus",
   "excludedTags": [],
   "mediaFolder": "",
   "systemPrompt": "",
@@ -32,11 +32,11 @@
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
-      "customModels": "gpt-5.6-luna",
+      "customModels": "gpt-5.6-terra",
       "lastModel": "haiku",
       "modelEnvironmentType": "",
-      "titleModelEnvironmentType": "",
-      "environmentVariables": "\"ANTHROPIC_BASE_URL\": \"https://sub2api.aibeehive.icu/\",\n    \"ANTHROPIC_AUTH_TOKEN\": \"sk-b135423fc4d9a866891f7c18082fcd6b50eb1058301f37d6e09ac015dbc74b8e\",\n    \"ANTHROPIC_DEFAULT_SONNET_MODEL\": \"gpt-5.6-luna\",\n    \"ANTHROPIC_DEFAULT_SONNET_MODEL_NAME\": \"gpt-5.6-luna\",\n    \"ANTHROPIC_DEFAULT_OPUS_MODEL\": \"gpt-5.6-luna\",\n    \"ANTHROPIC_DEFAULT_OPUS_MODEL_NAME\": \"gpt-5.6-luna\",\n    \"ANTHROPIC_MODEL\": \"gpt-5.6-luna\",\n    \"ANTHROPIC_DEFAULT_HAIKU_MODEL_NAME\": \"gpt-5.6-luna\",\n    \"ANTHROPIC_DEFAULT_HAIKU_MODEL\": \"gpt-5.6-luna\",\n    \"CLAUDE_CODE_SUBAGENT_MODEL\": \"gpt-5.6-luna\",\n    \"ANTHROPIC_DEFAULT_FABLE_MODEL\": \"gpt-5.6-luna\",\n    \"ANTHROPIC_DEFAULT_FABLE_MODEL_NAME\": \"gpt-5.6-luna\",",
+      "titleModelEnvironmentType": "opus",
+      "environmentVariables": "\"ANTHROPIC_BASE_URL\": \"https://long-sub2api.aibeehive.icu\",\n    \"ANTHROPIC_AUTH_TOKEN\": \"sk-b135423fc4d9a866891f7c18082fcd6b50eb1058301f37d6e09ac015dbc74b8e\",\n    \"ANTHROPIC_DEFAULT_SONNET_MODEL\": \"gpt-5.6-terra\",\n    \"ANTHROPIC_DEFAULT_SONNET_MODEL_NAME\": \"gpt-5.6-terra\",\n    \"ANTHROPIC_DEFAULT_OPUS_MODEL\": \"gpt-5.6-terra\",\n    \"ANTHROPIC_DEFAULT_OPUS_MODEL_NAME\": \"gpt-5.6-terra\",\n    \"ANTHROPIC_MODEL\": \"gpt-5.6-terra\",\n    \"ANTHROPIC_DEFAULT_HAIKU_MODEL_NAME\": \"gpt-5.6-terra\",\n    \"ANTHROPIC_DEFAULT_HAIKU_MODEL\": \"gpt-5.6-terra\",\n    \"CLAUDE_CODE_SUBAGENT_MODEL\": \"gpt-5.6-terra\",\n    \"ANTHROPIC_DEFAULT_FABLE_MODEL\": \"gpt-5.6-sol\",\n    \"ANTHROPIC_DEFAULT_FABLE_MODEL_NAME\": \"gpt-5.6-sol\",\n    \"CLAUDE_CODE_MAX_CONTEXT_TOKENS\": \"272000\",\n    \"CLAUDE_CODE_AUTO_COMPACT_WINDOW\": \"240000\"",
       "environmentHash": ""
     },
     "codex": {
