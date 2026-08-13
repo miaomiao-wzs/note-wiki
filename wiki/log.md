@@ -1,10 +1,18 @@
 ---
 module: shared
 kind: log
-updated: 2026-08-12
-source_count: 68
+updated: 2026-08-13
+source_count: 78
 tags: []
 ---
+
+## 2026-08-13 | 移除大体积教材原始文件 | accounting
+- 主题：移除 2022 年初级经济法基础教材原始 PDF，同时保留可复用的知识沉淀与历史 provenance
+- 来源：已移除的历史路径 `raw/accounting/article/202607/2022初级经济法基础官方教材电子版.pdf`
+- 做了什么：确认目标 PDF 已不存在；将 [[wiki/accounting/sources/2022初级经济法基础官方教材电子版]] 的 `raw_availability` 设为 `removed`，保留 433 页工具识别记录、删除前 SHA-256 `dbf39ecc1b8dd9b86949c868f592f77962e94e92ee92297d08f4978517a312c1`、历史路径、学习内容和现行法律适用边界；明确 `.claudian/tmp/` 解析文件为临时工作产物，不作为长期归档或阅读依赖
+- 结果：重新扫描后 accounting 当前有效 raw 文件为 5 个、全库为 78 个；经济法教材在会计清单中保留为 `removed` 历史来源，模块首页、全局总览、raw 总清单和索引统计已同步，来源页入口继续保留
+- 后续：实际法律、税务或业务判断继续逐条核对现行官方文本；如未来需要回收 Git 历史中已提交的大对象，必须另行评估历史重写、协作者同步和远程强推影响
+
 
 ## 2026-08-12 | 维护教材来源页 | accounting
 - 主题：为大体积历史教材后续从 raw 移除做准备，并清理全局索引重复登记
@@ -14,13 +22,7 @@ tags: []
 - 后续：用户实际删除 PDF 后，将来源页生命周期改为 `removed`，重新扫描并同步 accounting 清单、模块总览、全局 raw 总清单、知识库总览和日志；预计 accounting 7→6、全局 80→79（以实际扫描为准）
 
 
-- 主题：为大体积历史教材后续从 raw 移除做准备，并清理全局索引重复登记
-- 来源：`raw/accounting/article/202607/2022初级会计实务官方教材电子版.pdf`
-- 做了什么：删除 `wiki/index.md` 中该教材来源页的重复链接；保留唯一入口和完整来源页；在来源页增加 `raw_availability: present-planned-removal`，明确当前 PDF 仍存在、后续移除后保留历史路径、页数、SHA-256 和已整理知识内容；将解析目录标记为历史临时产物
-- 结果：PDF 当前 SHA-256 仍为 `e44d258cb058505181b8ec1c020f6a6050df59aa24cbde6f1376b8a5a31568c9`；当前 accounting 7 个、全局 80 个物理 raw 文件统计暂不变化
-- 后续：用户实际删除 PDF 后，将来源页生命周期改为 `removed`，重新扫描并同步 accounting 清单、模块总览、全局 raw 总清单、知识库总览和日志；预计 accounting 7→6、全局 80→79（以实际扫描为准）
-
-
+## 2026-08-12 | 整理新增 raw | FICO / shared
 - 主题：整理用户更新后的 raw 资料并纳入知识库
 - 来源：`raw/Clippings/` 中 3 篇固定资产 Markdown、1 篇 SAP 项目集成测试 Markdown及其 18 张流程图
 - 做了什么：将 3 篇固定资产资料归档到 `raw/fico/article/202608/`，建立资产折旧计算逻辑、固定资产折旧开始日期和资产会计常见日期 3 个来源页；将项目集成测试文档归档到 `raw/shared/article/202608/`，建立 shared 来源页和清单，18 张流程图归档到 `raw/assets/` 并修正原文本地图片路径

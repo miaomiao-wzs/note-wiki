@@ -1,8 +1,8 @@
 ---
 module: accounting
 kind: source
-updated: 2026-08-12
-source_count: 6
+updated: 2026-08-13
+source_count: 5
 tags: [accounting, source-inventory]
 ---
 
@@ -12,11 +12,11 @@ tags: [accounting, source-inventory]
 
 ## 统计口径
 
-- `raw/accounting/` 当前物理有效原始资料：6 个。
-- 当前按 SHA-256 去重后的资料：6 份；按规范/主题去重后为 5 份。
-- 当前状态：财政部令第33号官方会计准则保留网页摘录和官网复制全文两种 raw 形态；另有 1 份成本核算实务参考、1 份仍保留的 2022 年经济法教育教材和 2 份 2026-08 教育/实务参考文章，新增文章均为 `status: unknown`。2022 年初级会计实务教材原始 PDF 已移除，来源页保留为历史知识沉淀。
-- subject 分布：`accounting-practice` 6 份 raw 文件、`economic-law` 1 份；按规范/主题去重后分别为 5 份、1 份。
-- 访问日期：2026-08-07。
+- `raw/accounting/` 当前物理有效原始资料：5 个。
+- 当前按 SHA-256 去重后的资料：5 份；按规范/主题去重后为 4 份。
+- 当前状态：财政部令第33号官方会计准则保留网页摘录和官网复制全文两种 raw 形态；另有 1 份成本核算实务参考和 2 份 2026-08 教育/实务参考文章，新增文章均为 `status: unknown`。两份 2022 年教材原始 PDF 均已移除，来源页保留为历史知识沉淀，不计入当前物理 raw 统计。
+- subject 分布：`accounting-practice` 5 份 raw 文件，按规范/主题去重后为 4 份；`economic-law` 当前无 raw 文件，已移除教材仅保留历史来源页。
+- 访问日期：2026-08-13。
 
 ## 已采集资料
 
@@ -25,7 +25,7 @@ tags: [accounting, source-inventory]
 | `raw/accounting/web/202607/企业会计准则基本准则（财政部令第33号）.md` | `accounting-practice` | 中华人民共和国财政部 | 财政部令第33号 | 2006年修订版 | 2006-02-15 | 2007-01-01 | effective（现行适用性仍需持续核验；与下一行同一规范） | `d4d0eff3fc801bc538fc9b3839f19588a99689b6efffae39a891756659d7abda` | [[wiki/accounting/sources/企业会计准则基本准则（财政部令第33号）]] |
 | `raw/accounting/article/202607/企业会计准则——基本准则.md` | `accounting-practice` | 中华人民共和国财政部 | 财政部令第33号 | 2006年修订版官网复制全文 | 2006-02-15 | 2007-01-01 | effective（与上一行同一规范；保留为完整本地全文） | `a600c5985e3001e3d0b987cca57135085f73eb63b96ad5f81a835bddc22856a` | [[wiki/accounting/sources/企业会计准则基本准则（财政部令第33号）]] |
 | `raw/accounting/article/202607/500强企业成本核算实务.pdf` | `accounting-practice` | 机械工业出版社 / 华章分社（版权页） | null | 2020 年纸版；电子版待核验 | 2020 | null | unknown（实务/教育参考，非现行规范） | `f69cb5166ec75b5ea179a9d618c5b58561f2b7dbef1938d5e7314d3328ebd33c` | [[wiki/accounting/sources/500强企业成本核算实务]] |
-| `raw/accounting/article/202607/2022初级经济法基础官方教材电子版.pdf` | `economic-law` | 待版权页核验 | null | 2022 年教材，具体版次待核验 | 2022 | null | unknown（历史教育参考，非现行法律） | `dbf39ecc1b8dd9b86949c868f592f77962e94e92ee92297d08f4978517a312c1` | [[wiki/accounting/sources/2022初级经济法基础官方教材电子版]] |
+| `raw/accounting/article/202607/2022初级经济法基础官方教材电子版.pdf` | `economic-law` | 待版权页核验 | null | 2022 年教材，具体版次待核验 | 2022 | null | removed（原始 PDF 已移除；历史教育参考，非现行法律） | `dbf39ecc1b8dd9b86949c868f592f77962e94e92ee92297d08f4978517a312c1` | [[wiki/accounting/sources/2022初级经济法基础官方教材电子版]] |
 | `raw/accounting/article/202607/2022初级会计实务官方教材电子版.pdf` | `accounting-practice` | 待版权页核验 | null | 2022 年教材，具体版次待核验 | 2022 | null | removed（原始 PDF 已移除；历史教育参考，非现行准则） | `e44d258cb058505181b8ec1c020f6a6050df59aa24cbde6f1376b8a5a31568c9` | [[wiki/accounting/sources/2022初级会计实务官方教材电子版]] |
 | `raw/accounting/article/202608/财务总监花了一周，搭建的财务部内部工作体系太清晰了，第一次见这么全面的财务部工作流程！.md` | `accounting-practice` | 待核验 | null | 2026-08 网络实务参考 | null | null | unknown（图片型教育/实务参考，不是企业制度或现行法规） | `7f190c3506afccd6cf356136ea29beff10d79fad0122e8d6c8d01fdd6c80b4a6` | [[wiki/accounting/sources/财务部内部工作体系]] |
 | `raw/accounting/article/202608/财务白痴学财务：第五十三课：合并报表的实务流程（ERP视角）.md` | `accounting-practice` | 待核验 | null | 2026-08 网络实务参考 | null | null | unknown（教育/实务参考，具体准则和系统行为待核验） | `e4cb6f67dcfd192030a4ded46389615b6ef0078093534722e8820227ad3c3b87` | [[wiki/accounting/sources/合并报表实务流程（ERP视角）]] |

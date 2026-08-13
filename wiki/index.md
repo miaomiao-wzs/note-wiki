@@ -1,8 +1,8 @@
 ---
 module: shared
 kind: index
-updated: 2026-08-12
-source_count: 79
+updated: 2026-08-13
+source_count: 78
 tags: []
 ---
 

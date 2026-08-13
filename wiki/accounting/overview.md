@@ -1,8 +1,8 @@
 ---
 module: accounting
 kind: overview
-updated: 2026-08-12
-source_count: 6
+updated: 2026-08-13
+source_count: 5
 tags: [accounting]
 ---
 
@@ -39,7 +39,7 @@ tags: [accounting]
 - [[wiki/accounting/synthesis/FICO 与 accounting 归属映射]]：会计与 SAP/FICO 页面归属
 - [[wiki/accounting/sources/企业会计准则基本准则（财政部令第33号）]]：首批官方会计准则资料（网页摘录与官网复制全文）
 - [[wiki/accounting/sources/500强企业成本核算实务]]：成本核算与标准成本/作业成本法实务参考
-- [[wiki/accounting/sources/2022初级经济法基础官方教材电子版]]：2022 年经济法教育教材（历史参考）
+- [[wiki/accounting/sources/2022初级经济法基础官方教材电子版]]：2022 年经济法教育教材（历史参考；原始 PDF 已移除，来源页保留）
 - [[wiki/accounting/sources/2022初级会计实务官方教材电子版]]：2022 年会计实务教育教材（历史参考；原始 PDF 已移除，来源页保留）
 - [[wiki/accounting/sources/财务部内部工作体系]]：财务岗位与内部工作流程图片型实务参考（待核验）
 - [[wiki/accounting/sources/合并报表实务流程（ERP视角）]]：合并报表六步流程框架（待准则、制度和系统核验）
@@ -53,4 +53,4 @@ tags: [accounting]
 
 ## 当前状态
 
-当前已采集 6 个会计 raw 文件，按规范/主题去重为 5 份：财政部令第33号官方会计准则保留 1 份网页摘录和 1 份官网复制全文，另有 1 份成本核算实务参考、1 份仍保留的 2022 年经济法教育教材和 2 份 2026-08 网络教育/实务参考文章。2022 年初级会计实务教材原始 PDF 已移除，但其来源页和历史 provenance 保留。资料中 `accounting-practice` 5 个 raw 文件（按主题去重 4 份）、`economic-law` 1 个 raw 文件（按主题去重 1 份）；新增文章和既有 PDF 均标记为 `status: unknown`，在版本、授权、准则适用性和企业制度核验前，不写入确定性法律、制度或 SAP 操作结论。
+当前已采集 5 个会计 raw 文件，按规范/主题去重为 4 份：财政部令第33号官方会计准则保留 1 份网页摘录和 1 份官网复制全文，另有 1 份成本核算实务参考和 2 份 2026-08 网络教育/实务参考文章。两份 2022 年教材原始 PDF 均已移除，但其来源页和历史 provenance 保留。资料中 `accounting-practice` 5 个 raw 文件（按主题去重 4 份），`economic-law` 当前无 raw 文件；新增文章和既有 PDF 来源页均标记为 `status: unknown`，在版本、授权、准则适用性和企业制度核验前，不写入确定性法律、制度或 SAP 操作结论。

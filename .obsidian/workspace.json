@@ -15,34 +15,6 @@
               "state": {
                 "file": "wiki/fico/sources/报表查询.md",
                 "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "报表查询"
-            }
-          },
-          {
-            "id": "be5185b8b844fa20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/fico/article/202607/OKB9 成本要素默认成本中心配置.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OKB9 成本要素默认成本中心配置"
-            }
-          },
-          {
-            "id": "e1257b4956353714",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/accounting/synthesis/FICO 与 accounting 归属映射.md",
-                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -56,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FICO 与 accounting 归属映射"
+              "title": "报表查询"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -246,8 +217,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "d4847536e48d912f",
+  "active": "8062de8a632b8539",
   "lastOpenFiles": [
+    "raw/fico/article/202607/OKB9 成本要素默认成本中心配置.md",
+    "raw/accounting/article/202607/2022初级经济法基础官方教材电子版.pdf",
+    "wiki/accounting/synthesis/FICO 与 accounting 归属映射.md",
     "wiki/accounting/sources/500强企业成本核算实务.md",
     "wiki/accounting/sources/2022初级会计实务官方教材电子版.md",
     "raw/fico/article/202607/FICO.md",
@@ -290,9 +264,6 @@
     "accounting",
     "wiki/accounting/sources/财务部内部工作体系.md",
     "wiki/abap/sources/SAP系统架构技术白皮书.md",
-    "wiki/fico/sources/SAP ALV报表导出权限控制.md",
-    "wiki/fico/sources/SAP统驭科目类型修改.md",
-    "wiki/fico/sources/IDCNAP应付账款账龄报告.md",
-    "raw/accounting/article/202608"
+    "wiki/fico/sources/SAP ALV报表导出权限控制.md"
   ]
 }

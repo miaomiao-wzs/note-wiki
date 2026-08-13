@@ -1,8 +1,8 @@
 ---
 module: shared
 kind: source
-updated: 2026-08-12
-source_count: 79
+updated: 2026-08-13
+source_count: 78
 tags: []
 ---
 
@@ -30,7 +30,7 @@ tags: []
 | 模块 / 目录 | 有效原始资料 | 当前整理状态 | 对应清单 |
 | --- | ---: | --- | --- |
 | `raw/fico/` | 54 | 已完成本轮整理；其中 1 份 FS15/FS16 Markdown 资料近重复，暂保留未重复整理 | [[wiki/fico/sources/raw资料清单]] |
-| `raw/accounting/` | 6 | 2022 年初级会计实务教材原始 PDF 已移除，但来源页保留历史知识内容；其余资料已归档，网络教育/实务参考标记 `unknown`；既有财政部令第33号双 raw 形态仍只计 1 个规范主题 | [[wiki/accounting/sources/raw资料清单]] |
+| `raw/accounting/` | 5 | 两份 2022 年教材原始 PDF 均已移除，但来源页保留历史知识内容；其余资料已归档，网络教育/实务参考标记 `unknown`；既有财政部令第33号双 raw 形态仍只计 1 个规范主题 | [[wiki/accounting/sources/raw资料清单]] |
 | `raw/abap/` | 1 | 已新增 SAP 系统架构白皮书来源页；性能与版本断言待核验 | [[wiki/abap/sources/raw资料清单]] |
 | `raw/sd/` | 17 | 已完成本轮整理 | [[wiki/sd/sources/raw资料清单]] |
 | `raw/shared/` | 1 | 已建立跨模块项目集成测试来源页；流程图归档至 `raw/assets/` | [[wiki/shared/sources/raw资料清单]] |
@@ -39,7 +39,7 @@ tags: []
 | `raw/qm/` | 0 | 暂无有效原始资料 | 暂无 |
 | `raw/assets/` | 0 | 附件目录，不作为来源页整理 | 暂无 |
 | `raw/Clippings/` | 0 | 暂存目录已清理，Markdown 资料全部迁移到对应模块目录 | 暂无 |
-| 合计 | 79 个物理文件 | 当前模块化 raw 有效原始资料已完成本轮整理；2022 年初级会计实务教材原始 PDF 已移除但来源页保留；accounting 的财政部令第33号保留网页摘录与官网复制全文两种 raw 形态但只计 1 个规范主题；FICO 重复资料和网络文章待核验边界均已标注 | 见各模块清单 |
+| 合计 | 78 个物理文件 | 当前模块化 raw 有效原始资料已完成本轮整理；两份 2022 年教材原始 PDF 已移除但来源页保留；accounting 的财政部令第33号保留网页摘录与官网复制全文两种 raw 形态但只计 1 个规范主题；FICO 重复资料和网络文章待核验边界均已标注 | 见各模块清单 |
 
 说明：`raw/Clippings/` 当前无有效资料文件；按知识库口径不计入合计。
 
@@ -95,4 +95,4 @@ tags: []
 
 ## 当前结论
 
-截至 2026-08-12，`raw/` 下按当前物理文件口径的模块化有效原始资料为 79 个；其中 FICO 54、accounting 6、ABAP 1、SD 17、shared 1。`raw/Clippings/` 当前无有效资料文件，18 张流程图作为 shared 测试文档附件归档于 `raw/assets/`。
+截至 2026-08-13，`raw/` 下按当前物理文件口径的模块化有效原始资料为 78 个；其中 FICO 54、accounting 5、ABAP 1、SD 17、shared 1。`raw/Clippings/` 当前无有效资料文件，18 张流程图作为 shared 测试文档附件归档于 `raw/assets/`。

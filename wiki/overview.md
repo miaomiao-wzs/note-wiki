@@ -1,8 +1,8 @@
 ---
 module: shared
 kind: overview
-updated: 2026-08-12
-source_count: 79
+updated: 2026-08-13
+source_count: 78
 tags: []
 ---
 
@@ -20,10 +20,10 @@ tags: []
 
 ## 当前 raw 整理状态
 
-- 当前 `raw/` 下有效原始资料按文件口径共 79 个；按 SHA-256 去重当前仍为 79 个。`raw/Clippings/` 中 4 篇 Markdown 已迁移到 FICO 和 shared 的 202608 目录；18 张集成测试流程图归档到 `raw/assets/`，不重复计入原始资料。
+- 当前 `raw/` 下有效原始资料按文件口径共 78 个；按 SHA-256 去重当前仍为 78 个。`raw/Clippings/` 中 4 篇 Markdown 已迁移到 FICO 和 shared 的 202608 目录；18 张集成测试流程图归档到 `raw/assets/`，不重复计入原始资料。
 - FICO 当前 54 个模块内有效原始资料（含 3 篇 202608 固定资产资料）已整理，详见 [[wiki/fico/sources/raw资料清单]]。
 - shared 当前 1 个跨模块项目集成测试 Markdown 已整理，详见 [[wiki/shared/sources/raw资料清单]]。
-- accounting 当前 6 个有效 raw 文件，按规范/主题去重为 5 份；2022 年初级会计实务教材原始 PDF 已移除，但来源页和历史整理内容保留；新增网络教育/实务参考文章均标记 `status: unknown`，详见 [[wiki/accounting/sources/raw资料清单]]。
+- accounting 当前 5 个有效 raw 文件，按规范/主题去重为 4 份；两份 2022 年教材原始 PDF 已移除，但来源页和历史整理内容保留；新增网络教育/实务参考文章均标记 `status: unknown`，详见 [[wiki/accounting/sources/raw资料清单]]。
 - ABAP 当前 1 个有效原始资料已整理，详见 [[wiki/abap/sources/raw资料清单]]。
 - SD 当前 17 个有效原始资料已整理，详见 [[wiki/sd/sources/raw资料清单]]。
 - MM 当前无独立 raw 原始资料，但已从 SD 目录中识别并整理 1 个 MM/FICO 跨模块来源页：[[wiki/mm/sources/SAP-MM费用类采购通过物料组确定科目]]。
