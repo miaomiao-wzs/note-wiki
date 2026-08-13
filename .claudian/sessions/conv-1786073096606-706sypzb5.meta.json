@@ -4,8 +4,8 @@
   "title": "Implement this plan:",
   "titleGenerationStatus": "failed",
   "createdAt": 1786073096619,
-  "updatedAt": 1786524708444,
-  "lastResponseAt": 1786524708444,
+  "updatedAt": 1786586120775,
+  "lastResponseAt": 1786586120775,
   "sessionId": "6ca826b8-fd7d-4028-8990-31a5e991913d",
   "selectedModel": "haiku",
   "providerState": {
@@ -2926,12 +2926,12 @@
   },
   "usage": {
     "model": "haiku",
-    "inputTokens": 8488,
+    "inputTokens": 2258,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 152064,
+    "cacheReadInputTokens": 164352,
     "contextWindow": 200000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 160552,
-    "percentage": 80
+    "contextTokens": 166610,
+    "percentage": 83
   }
 }
