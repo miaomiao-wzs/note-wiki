@@ -2,3 +2,6 @@
 
 # Obsidian local workspace state
 .obsidian/workspace.json
+
+# Claudian session metadata
+.claudian/sessions/*.meta.json

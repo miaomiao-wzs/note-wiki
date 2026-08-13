@@ -155,6 +155,7 @@ tags: []
 - [[wiki/fico/sources/SAP资产折旧错误调整]]：资产折旧异常诊断与调整边界
 - [[wiki/fico/sources/SAP AA模块凭证冲销 AB08]]：资产会计凭证冲销边界与 AB08 核验清单
 - [[wiki/fico/sources/WBS 创建操作手册]]
+- [[wiki/fico/entities/CJI3]]：项目/WBS 实际成本及研发费用查询入口
 - [[wiki/fico/sources/集团内资产买卖原值折旧入账]]
 
 ### 第六批：发票、税票与销售开票

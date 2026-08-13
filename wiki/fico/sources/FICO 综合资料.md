@@ -119,10 +119,12 @@ tags: []
 
 - WBS 可通过 `CJ20N` 创建，通过 `CJ02` 维护，通过 `CJ88` / `CJ8G` 结算。
 - WBS 批量创建和维护涉及 `CNMASSCREATE`、`CNMASS`、`CNMASSSTATUS`、`ZPSU002`。
-- 研发费用场景中，`5301*` 科目可通过项目结算转入 `6602*` 科目，涉及 WBS 结算规则。
+- `CJI3` 用于查询项目或 WBS 的实际成本行项目；研发费用核对时，应先确定研发费用实际记账到 WBS、内部订单还是成本中心，再按期间、成本要素和成本对象筛选。
+- 研发费用场景中，`5301*` 科目可通过项目结算转入 `6602*` 科目，涉及 WBS 结算规则；具体科目范围和结算结果仍需以目标系统凭证及企业口径核验。
 - 统计型 WBS 可用于费用归集，但需要控制与成本中心同时出现时的真实成本对象归属。
+- `CJI3` 的实际成本明细可与 [[wiki/fico/entities/ZFIR004]] 研发费用台账辅助报表、[[wiki/fico/entities/ZFIR005]] 研发费用分析表交叉核对；三者的取数范围和管理口径可能不同，不能把自开发报表当作 SAP 标准报表。
 
-相关页面：[[wiki/fico/concepts/WBS 元素]]、[[wiki/fico/entities/CJ20N]]。
+相关页面：[[wiki/fico/concepts/WBS 元素]]、[[wiki/fico/entities/CJ20N]]、[[wiki/fico/entities/CJI3]]、[[wiki/fico/synthesis/月结项目结转操作手册]]。
 
 ### 销售开票、金税发票与未开票处理
 
