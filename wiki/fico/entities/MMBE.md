@@ -1,7 +1,7 @@
 ---
 module: fico
 kind: entity
-updated: 2026-07-08
+updated: 2026-08-13
 source_count: 1
 tags: []
 ---
@@ -9,17 +9,18 @@ tags: []
 # MMBE
 
 ## 定义
-`MMBE` 是事务代码清单中记录的 SAP 事务码，SAP 描述为“库存概览”。
+`MMBE` 是库存概览事务码，用于查看某个物料在工厂/库存地点层面的库存。
 
 ## 作用
-- 单独查询某个物料在某个库存地点的库存信息。
-- 适用岗位：应付会计/成本会计。
+- 查看单个物料在各工厂和库存地点的库存数量。
+- 显示非限制使用、质检、冻结等库存状态。
+- 快速查看当前成品库存。
 
 ## 相关对象
-- 暂无
+- [[wiki/fico/entities/MB52]]
 
 ## 相关概念
-- [[wiki/fico/concepts/FI 凭证记账]]
+- [[wiki/fico/concepts/成品入库数量查询]]
 
 ## 参考来源
 - [[wiki/fico/sources/事务代码清单]]
