@@ -223,12 +223,18 @@ tags: [月结, 期末处理]
 原文整理了 48 个示例动作及事务码，可用于设计月结 Checklist，但其中部分事务码、本地化报表、作业顺序和模块功能受版本、行业方案及企业配置影响。
 
 ## 图片资料
-原文 4 张公开流程图已本地化：
 
+### 月结全景流程图
 - ![[raw/assets/clipping-monthly-01.png]]
 - ![[raw/assets/clipping-monthly-02.png]]
 - ![[raw/assets/clipping-monthly-03.png]]
 - ![[raw/assets/clipping-monthly-04.png]]
+
+### 集成测试财务月结流程图
+- ![[raw/assets/BP-05-财务月结流程.png]]
+
+### 集成测试财务成本结转流程图
+- ![[raw/assets/BP-10-财务成本结转流程.png]]
 
 ## 相关实体
 - [[wiki/fico/entities/F.13]]
