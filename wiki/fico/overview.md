@@ -134,6 +134,11 @@ tags: []
 
 - [[wiki/fico/sources/SAP FICO物料价格控制]]：原始 PDF 暂在 `raw/sd/article/202607/`，内容归属 FICO/MM。
 
+### 2026-08 新增凭证类型与报表资料
+
+- [[wiki/fico/sources/SAP系统已使用凭证类型分析]]：系统实际使用的 34 个凭证类型分类、来源和业务边界
+- [[wiki/fico/sources/ZFIR020实际成本进销存报表使用手册]]：实际成本进销存报表取数逻辑、字段说明和对账方法
+
 ## 核心概念
 
 - [[wiki/fico/concepts/FI 凭证记账]]

@@ -1,10 +1,24 @@
 ---
 module: shared
 kind: log
-updated: 2026-08-13
-source_count: 78
+updated: 2026-08-20
+source_count: 80
 tags: []
 ---
+
+## 2026-08-20 | 整理原始资料 | FICO
+- 主题：整理凭证类型分析和 ZFIR020 报表手册
+- 来源：
+  - [[raw/fico/article/202608/SAP系统已使用凭证类型分析_20260820.md]]
+  - [[raw/fico/article/202608/ZFIR020实际成本进销存报表使用手册.md]]
+- 改动：
+  - 新增 [[wiki/fico/sources/SAP系统已使用凭证类型分析]]：系统实际使用的 34 个凭证类型分类、来源和业务边界
+  - 新增 [[wiki/fico/sources/ZFIR020实际成本进销存报表使用手册]]：实际成本进销存报表使用手册
+  - 更新 [[wiki/fico/entities/ZFIR020]]：补充报表入口、选择屏幕、字段说明和已知限制
+  - 更新 [[wiki/fico/overview]]：新增第十批来源页
+  - 更新 [[wiki/index]]：新增第十批来源页索引
+  - 更新 [[wiki/shared/raw资料总清单]]：FICO 原始资料数量更新至 56 个
+- 结论：凭证类型不能单独等同于业务来源，需结合 BLART/TCODE/AWTYP/AWKEY 判断；ZFIR020 是物料分类账口径的进销存报表，不是仓库收发存明细
 
 ## 2026-08-13 | 更新概念页 | FICO
 - 主题：发票校验冲销后需要重新录入
