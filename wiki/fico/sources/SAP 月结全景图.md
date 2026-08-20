@@ -224,11 +224,8 @@ tags: [月结, 期末处理]
 
 ## 图片资料
 
-### 月结全景流程图
-- ![[raw/assets/clipping-monthly-01.png]]
-- ![[raw/assets/clipping-monthly-02.png]]
-- ![[raw/assets/clipping-monthly-03.png]]
-- ![[raw/assets/clipping-monthly-04.png]]
+### SAP 月结四大战役
+- ![[raw/assets/SAP月结四大战役.png]]
 
 ### 集成测试财务月结流程图
 - ![[raw/assets/BP-05-财务月结流程.png]]
